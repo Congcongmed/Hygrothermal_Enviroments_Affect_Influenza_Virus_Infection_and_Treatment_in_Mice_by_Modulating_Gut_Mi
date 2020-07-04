@@ -1,1 +1,0 @@
-Readme. This is a part of the Article named Hygrothermal_Enviroments_Affect_Influenza_Virus_Infection_and_Treatment_in_Mice_by_Modulating_Gut_Microbiota
