@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>BGI Amplicon Analysis Report</title>
+<link href="css/report.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/report.js"></script>
+<style type="text/css">
+body{
+        overflow:visible;
+position:relative;
+
+    background-color:#FFFFFF;
+    }
+.note {color: #f00;}
+</style>
+</head>
+<body>
+
+<div class="seq_ctl_top">Overview</div>
+ 
+  <ul class="seq_ul">
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='overview.1';">Introdution of workflow</a></li>
+   <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='overview.2';">Bioinformatics analysis workflow</a></li>
+  </ul>
+  <div class="seq_ctl_top">Methods and results</div>  
+     <ul class="seq_ul">
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.sequencingQC';">Data statistics</a></li>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.alignment';">Paired end reads are merged to tags</a>
+<li><span></span><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.geneExp';">Analysis of community patterns</a>
+        <ul>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.geneExpOTU';">OTU cluster and abundance</a></li>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.geneExpSPCIES';">Species composition and abundance</a></li>
+</ul>
+</li>
+<li><span></span><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.deepAnalysisOfGeneExp';">Diversity analysis</a>
+        <ul>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.corStat';">Diversity analysis with single sample</a></li>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.allClusterTree';">Diversity analysis among samples</a></li>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.venn';">Clustering among samples</a></li>
+</ul>
+</li>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.deepAnalysisOfDEGs';">Significant differences analysis between groups of samples</a></li>
+<li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='result.deepAnalysisMINING';">Suggestions for data mining</a></li>
+
+</ul>
+<div class="seq_ctl_top">References</div>
+<div class="seq_ctl_top">Data format introduction</div>
+<ul class="seq_ul">
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='format.fastq';">FASTQ Format</a></li>
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='format.fasta';">FASTA Format</a></li>
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='format.otu';">OTU File</a></li>
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='format.alpha';">Alpha File</a></li>
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='format.Beta';">Beta File</a></li>
+  <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='format.difference';">Difference Analysis File</a></li>
+
+
+</ul>
+
+  <ul class="seq_ul">
+  </ul>

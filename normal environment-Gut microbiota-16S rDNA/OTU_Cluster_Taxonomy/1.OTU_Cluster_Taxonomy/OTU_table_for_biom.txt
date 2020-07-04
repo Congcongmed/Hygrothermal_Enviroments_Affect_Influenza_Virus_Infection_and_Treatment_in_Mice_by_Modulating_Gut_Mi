@@ -1,0 +1,723 @@
+# Construct
+#OTU ID	611A	612A	621A	622A	631A	632A	641A	642A	711A	712A	721A	722A	731A	732A	741A	742A	taxonomy
+Otu649	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu573	0	3	13	58	0	14	5	4	0	2	0	1	1	2	0	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu714	1	0	0	11	1	0	0	0	4	0	16	0	10	2	2	1	Bacteria; Tenericutes; Mollicutes; RF39
+Otu486	0	0	0	0	0	1	1	2	2	2	0	1	2	3	8	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu715	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu487	158	9	0	20	164	2	64	0	1343	0	1	0	59	2	2	147	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu716	0	0	0	0	0	0	0	0	0	0	0	0	0	3	2	2	Bacteria; Firmicutes; Bacilli; Bacillales; Bacillaceae; Geobacillus; Geobacillus_vulcani
+Otu488	0	0	2	2	0	6	1	5	2	0	0	1	2	0	0	4	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu717	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu489	0	0	0	1	0	0	0	0	0	0	0	0	12	0	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu710	2	5	12	8	4	16	0	19	0	13	2	3	0	8	7	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu711	0	2	3	2	1	1	0	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu712	0	2	3	6	1	9	84	3	1	0	17	0	13	10	20	65	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu713	21	3	7	14	11	35	3	6	30	24	6	11	4	5	17	14	Bacteria; TM7; TM7-3; CW040; F16
+Otu510	2	1	1	1	0	0	1	0	1	0	5	2	1	0	9	2	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu529	2	5	4	0	0	0	1	0	0	0	3	0	0	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu528	2	4	6	0	0	0	1	0	0	0	0	0	55	0	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu523	0	0	2	6	2	0	0	15	4	1	15	6	8	25	28	8	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu522	30	24	2	16	17	10	0	45	0	2	0	0	7	0	1	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu521	0	0	3	0	0	0	0	0	0	0	1	0	1	0	5	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+Otu520	0	2	7	1	2	0	2	0	2	0	1	1	0	1	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu527	0	0	0	1	0	0	2	0	1	4	0	9	1	1	3	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu526	2	0	0	0	0	0	2	0	0	0	0	2	5	6	0	1	Bacteria; Tenericutes; Mollicutes; RF39
+Otu525	0	0	0	0	1	0	0	0	3	0	0	2	1	9	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu524	0	0	3	6	3	1	5	0	3	1	1	0	1	0	0	3	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu318	3	6	6	2	8	3	3	7	1	3	4	26	2	7	6	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu319	0	2	1	1	1	0	0	29	0	0	0	0	0	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu310	3	0	5	9	0	2	1	25	8	0	2	15	33	7	4	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu311	1	0	0	2	0	0	0	0	0	0	0	0	0	0	21	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu312	0	0	4	0	25	0	16	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu313	0	29	0	0	0	0	0	0	0	0	0	11	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu314	25	12	4	3	1	22	17	4	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Veillonellaceae; Veillonella
+Otu315	1	8	34	11	31	38	4	0	2	15	9	34	0	11	28	23	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu316	34	9	9	25	1	42	3	9	2	30	2	6	2	3	1	8	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu317	0	0	0	0	0	0	0	0	24	7	25	4	3	5	18	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu610	0	0	0	0	0	0	0	3	0	0	0	0	0	0	2	0	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus_iners
+Otu417	12	1	0	2	0	5	8	0	2	1	0	0	0	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium; Clostridium_perfringens
+Otu416	0	0	0	0	11	0	12	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu415	0	0	0	0	0	0	0	0	0	0	0	0	7	11	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Clostridium; Clostridium_colinum
+Otu414	0	3	1	0	19	0	0	0	1	0	0	0	1	5	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu413	0	7	12	5	1	3	7	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu412	1	6	9	1	1	2	8	0	2	0	7	10	3	0	8	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu411	8	54	97	5	64	40	47	11	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales
+Otu410	3	7	0	10	22	18	2	8	0	0	3	4	4	17	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu370	0	0	0	1	15	0	15	0	0	0	0	3	0	0	0	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu419	0	0	11	7	14	0	3	0	1	0	6	5	1	11	3	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu418	0	0	0	0	0	0	0	15	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu371	15	0	1	22	0	1	0	0	1	0	0	2	8	2	0	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu558	0	0	1	0	0	0	1	2	2	9	0	0	2	3	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu559	0	0	2	1	1	1	1	3	0	0	0	5	3	0	2	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Christensenellaceae
+Otu556	0	0	0	0	0	1	0	0	3	1	0	0	0	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu557	0	2	4	0	13	0	0	1	0	3	2	1	1	5	1	7	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu554	1	0	1	1	2	0	0	2	0	0	0	0	6	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu555	0	0	3	3	0	1	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae
+Otu552	0	0	0	0	0	0	0	0	0	0	0	0	1	6	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu553	0	0	0	0	0	0	0	0	0	0	3	0	1	0	1	5	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus
+Otu550	0	1	0	6	3	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu551	31	10	17	3	11	93	8	39	4	3	60	25	1	15	35	11	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu679	0	0	0	0	0	0	0	0	0	0	0	2	0	0	4	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu678	0	0	0	0	0	0	0	0	4	0	0	1	1	9	1	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu677	2	0	0	1	0	1	0	1	0	0	0	0	0	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Paraeggerthella; Paraeggerthella_hongkongensis
+Otu676	1	1	3	0	2	0	2	0	0	0	3	2	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu675	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	Bacteria
+Otu674	0	2	4	8	4	0	3	10	10	11	7	16	21	1	35	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu673	0	0	0	0	0	0	0	3	2	0	0	0	0	1	1	0	Bacteria
+Otu672	0	0	0	0	0	0	0	2	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides_acidifaciens
+Otu671	5	16	7	8	27	6	6	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu670	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu58	21	17	41	220	4	28	78	158	26	98	147	9	55	154	1156	366	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu59	0	0	0	0	0	0	0	0	0	0	0	0	756	56	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu389	4	1	17	1	0	1	5	0	0	0	18	1	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu388	1	1	0	2	4	1	0	0	1	6	5	17	0	5	1	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Anaerotruncus
+Otu50	0	0	0	0	0	0	0	0	63	761	23	21	132	30	57	6	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Odoribacteraceae; Odoribacter
+Otu51	14	270	321	287	32	0	31	0	0	0	0	0	1500	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu52	1	7	279	91	0	95	161	46	2	98	161	735	0	11	360	59	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Prevotellaceae; Prevotella
+Otu53	2	3	3	6	3	7	23	3	325	323	37	783	84	376	79	85	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu54	145	210	16	1	21	444	184	63	91	184	12	0	789	896	64	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu55	119	7	0	26	7	13	60	0	0	28	12	757	2	10	122	6	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu56	45	13	12	23	10	26	64	0	24	8	584	654	115	17	142	19	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu57	9	95	69	79	20	26	11	81	6	71	11	840	0	85	40	37	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu379	4	1	0	7	0	1	0	2	0	6	7	19	0	4	2	14	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu251	7	23	86	23	21	0	12	24	12	0	25	103	41	50	36	50	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu250	131	59	57	37	104	145	229	1	19	4	468	162	8	132	46	213	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu253	0	1	50	8	0	9	38	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu252	48	0	0	53	7	44	0	25	0	0	0	2	0	1	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu255	2	2	42	0	0	3	0	0	1	0	18	8	2	0	7	6	Bacteria; Proteobacteria; Alphaproteobacteria; RF32
+Otu254	0	1	3	9	0	4	1	7	4	37	8	21	62	11	23	12	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu257	0	2	3	53	1	0	17	0	3	0	0	3	0	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu256	3	3	2	5	0	47	1	15	0	19	3	39	1	4	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu259	1	16	22	12	1	0	39	0	1	0	5	72	0	4	11	61	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu258	0	0	0	12	3	35	8	6	0	7	28	10	20	16	2	17	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Clostridium; Clostridium_cocleatum
+Otu709	0	0	10	0	0	1	0	0	0	0	0	0	0	29	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu708	0	0	0	0	0	0	0	0	0	0	0	0	22	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu589	0	0	0	0	0	0	0	0	0	0	21	0	49	2	4	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu396	1	0	1	5	0	5	7	0	0	0	2	0	0	18	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Clostridium; Clostridium_colinum
+Otu29	39	183	1318	0	603	460	1891	0	0	0	1377	0	185	21	14	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu28	1	5	7	10	24	7	4	79	69	63	1884	912	27	3	279	161	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides
+Otu25	3	0	0	4	6	0	5	111	13	1728	0	1	0	89	9	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Odoribacteraceae; Odoribacter
+Otu24	14	146	38	1169	690	98	291	4	37	668	465	1950	663	859	1989	83	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae
+Otu27	0	0	0	0	0	1	0	0	231	174	1	43	1738	25	25	11	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae; AF12
+Otu26	120	337	1145	3	523	0	581	30	353	0	1938	1002	11	378	129	681	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu21	1	751	213	2261	331	170	16	213	0	0	0	0	0	0	0	0	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Flexispira
+Otu20	0	0	0	0	0	0	0	0	1	0	0	1	2946	1	298	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu23	2485	1016	719	690	1087	1208	298	1119	812	1242	36	120	3	656	447	43	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu22	7	11	3	34	10	0	1	4	3	2492	293	88	9	117	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu174	1	9	16	5	13	3	3	35	22	72	17	41	107	27	7	10	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae
+Otu175	0	4	2	0	9	2	0	3	7	106	37	43	9	33	84	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu176	1	4	8	13	9	11	15	26	2	18	26	89	43	59	117	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu177	2	6	9	13	20	120	6	75	37	7	11	5	9	2	42	152	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu170	0	1	1	5	3	8	3	1	0	15	0	2	5	1	110	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu171	1	2	3	0	0	0	0	0	5	6	0	4	72	1	115	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu172	22	36	104	126	41	15	5	0	3	4	6	3	5	2	1	0	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Alcaligenaceae; Sutterella
+Otu173	0	0	64	7	0	0	0	137	0	0	0	0	7	1	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu178	0	23	33	3	58	5	6	3	106	39	52	30	61	31	158	21	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu179	0	0	0	0	0	0	0	0	5	27	113	52	3	1	0	13	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu518	0	0	0	0	1	0	0	0	0	0	6	0	1	0	6	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+Otu435	2	0	0	0	2	2	1	6	0	10	11	0	1	0	8	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu434	0	5	4	1	10	2	3	4	0	0	3	0	1	2	4	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu437	0	1	1	1	0	0	0	3	0	3	4	1	2	0	7	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Odoribacteraceae; Butyricimonas
+Otu436	2	1	0	10	12	7	10	0	0	1	1	0	2	8	3	44	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu431	0	0	0	0	0	0	0	0	5	0	7	11	0	1	8	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu430	4	0	5	1	10	3	4	0	0	0	0	2	1	0	0	2	Bacteria; Tenericutes; Mollicutes; RF39
+Otu433	0	0	0	4	0	0	0	0	0	0	0	1	0	0	11	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu707	1	2	0	0	0	0	0	0	0	0	0	0	0	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu432	0	5	11	4	1	3	0	4	0	0	5	16	2	5	8	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu268	4	4	1	2	8	3	0	8	5	34	9	12	26	19	5	23	Bacteria; Firmicutes; Clostridia; Clostridiales; Dehalobacteriaceae; Dehalobacterium
+Otu588	0	0	0	1	0	0	0	0	1	1	0	0	4	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu581	0	0	1	0	1	1	1	1	0	2	1	3	7	3	0	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu580	0	0	0	0	0	0	0	0	1	3	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu583	0	0	0	0	0	0	0	0	0	0	0	0	2	0	4	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu582	0	0	0	0	0	0	0	0	1	0	0	0	6	1	1	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu585	0	7	37	0	16	0	0	0	0	0	2	1	19	8	8	9	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu584	0	3	0	0	0	0	0	0	0	0	0	0	0	0	0	4	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu587	0	0	0	0	38	0	7	6	0	0	0	0	25	0	7	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu586	0	1	1	0	0	1	0	1	0	0	1	0	2	2	7	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu656	45	59	30	143	57	92	26	27	11	13	38	85	32	20	20	47	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu512	1	0	0	0	1	7	5	2	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu513	0	0	1	0	0	0	0	0	2	1	12	3	0	0	1	0	Bacteria; Proteobacteria; Alphaproteobacteria; RF32
+Otu459	0	0	0	0	0	0	0	0	0	0	0	0	0	16	0	1	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu458	13	1	3	5	7	2	3	8	5	7	5	12	12	9	6	10	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu516	0	1	1	2	0	0	0	1	2	3	0	3	0	4	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu517	0	0	1	0	0	1	4	0	0	0	0	0	0	0	0	0	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu514	0	1	0	11	0	1	0	0	25	1	0	0	296	23	1	18	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu515	0	0	0	0	0	0	0	0	4	0	0	0	5	5	4	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu453	1	11	9	9	0	0	0	3	2	0	2	0	4	1	1	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu452	0	0	0	0	0	1	1	0	0	0	0	12	2	0	2	1	Bacteria
+Otu451	0	2	5	2	1	5	0	1	0	0	3	13	2	10	2	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Defluviitalea; Defluviitalea_saccharophila
+Otu450	1	0	7	0	9	4	2	3	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu457	6	2	16	95	1	33	6	906	120	64	5	193	14	141	29	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu456	0	0	0	0	0	0	0	0	0	0	0	0	4	9	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu455	3	6	7	3	1	5	6	2	2	4	2	9	0	2	2	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu454	0	0	0	0	0	0	2	1	0	0	1	45	0	0	1	194	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu397	1	0	2	2	0	24	0	14	0	0	1	1	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu228	20	45	30	111	67	115	9	115	0	0	0	0	0	0	1	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu229	1	0	0	0	0	2	0	0	63	0	0	0	0	0	0	4	Bacteria; Tenericutes; Mollicutes; RF39
+Otu220	3	2	5	0	25	0	60	0	7	25	22	27	5	3	3	8	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu221	0	0	0	0	0	0	0	0	2	7	17	53	31	31	37	12	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu222	0	0	0	6	0	0	1	1	0	60	0	0	5	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu223	20	61	17	39	7	10	7	11	0	61	1	5	27	1	23	23	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu224	0	0	0	0	0	0	0	0	0	0	66	0	0	0	5	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Paraprevotella
+Otu225	7	37	80	15	13	152	12	17	5	31	16	18	23	14	13	27	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu226	0	20	0	9	0	1	30	1	8	116	3	0	0	0	2	16	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu227	1	1	0	13	0	4	0	5	5	2	8	2	0	61	11	3	Bacteria; Tenericutes; Mollicutes; RF39
+Otu511	6	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu358	6	0	0	1	0	0	0	0	3	19	2	0	4	1	14	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu359	3	1	2	2	5	27	3	19	7	39	18	29	4	19	24	24	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu428	0	0	0	0	0	1	0	0	0	0	9	10	5	2	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu429	0	0	0	0	0	0	0	0	0	0	0	0	1	0	10	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu354	0	4	5	10	1	11	0	13	3	3	1	34	5	5	15	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu355	0	0	0	0	0	0	0	1	0	0	0	27	0	0	8	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu356	0	3	3	14	0	7	7	0	2	0	0	18	2	11	22	28	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_hungatei
+Otu357	0	0	0	0	0	0	0	0	24	1	8	5	0	0	3	22	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu350	15	1	2	4	17	20	8	0	2	1	0	2	0	17	2	19	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu351	1	2	5	5	0	13	4	14	2	10	5	12	22	37	24	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu352	11	11	21	4	9	9	23	10	12	0	14	19	16	19	16	25	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu353	1	1	23	1	2	0	6	0	0	2	13	7	3	3	23	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu646	1	0	0	2	1	1	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu647	0	0	0	0	0	0	0	0	1	0	0	4	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu644	2	0	0	0	1	1	0	4	0	0	0	0	4	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu519	0	5	76	8	2	3	7	10	0	23	5	100	16	32	14	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu642	0	1	0	0	0	0	0	0	0	0	0	1	1	0	2	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu643	0	0	0	0	0	0	0	0	0	3	1	2	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu129	2	3	6	20	18	2	12	0	1	2	199	10	1	4	29	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu128	0	0	0	0	0	0	0	0	0	2	233	54	3	3	49	10	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu127	0	0	0	278	3	21	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu126	27	77	260	29	39	118	29	70	10	9	73	92	114	69	98	118	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu125	5	20	59	46	31	5	81	8	6	72	38	220	33	19	142	24	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu124	1	0	0	0	0	0	0	0	19	8	8	0	264	31	7	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu123	1	71	238	1	98	182	120	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus_flavefaciens
+Otu122	15	0	7	1	3	2	238	0	0	0	60	1	1	0	0	2	Bacteria; Tenericutes; Mollicutes; RF39
+Otu121	8	0	1	95	123	38	0	9	1	333	14	3	4	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu120	24	0	57	10	34	109	260	6	10	0	0	54	5	6	21	1	Bacteria; Tenericutes; Mollicutes; RF39
+Otu61	127	278	677	379	311	775	514	436	333	724	320	310	566	291	217	230	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu60	9	10	18	3	43	9	8	78	23	39	696	160	154	14	86	17	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales
+Otu63	512	257	582	121	642	174	144	582	617	491	627	63	802	364	422	54	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu62	32	154	48	35	118	79	91	323	140	234	653	699	47	103	91	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu65	248	194	263	433	102	50	73	305	220	615	152	210	12	228	54	34	Bacteria; Proteobacteria; Betaproteobacteria; Burkholderiales; Alcaligenaceae; Sutterella
+Otu64	93	178	24	279	93	78	192	96	17	13	3	151	406	653	18	118	Bacteria; Firmicutes; Bacilli; Turicibacterales; Turicibacteraceae; Turicibacter
+Otu67	0	288	0	15	1	0	0	0	1	0	696	1	47	803	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu66	14	109	135	630	5	98	46	5	136	187	145	148	82	92	415	24	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu69	232	511	114	92	148	47	852	0	0	0	7	37	252	348	18	38	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae
+Otu68	3	153	528	169	566	63	75	16	0	0	0	0	0	0	1	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae
+Otu633	5	5	1	4	2	1	3	4	0	1	0	0	4	0	0	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu632	0	0	1	1	1	1	0	0	3	7	0	1	0	0	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu631	0	0	0	0	2	0	0	0	0	3	1	3	2	3	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu630	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu637	13	0	0	10	17	0	0	0	3	0	0	0	0	17	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu636	0	0	0	0	0	1	0	0	1	1	0	0	3	0	0	1	Bacteria
+Otu635	2	19	56	93	19	18	11	27	55	100	1	129	0	32	4	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu634	1	4	9	0	8	4	9	2	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Prevotella
+Otu639	1	3	2	0	1	1	0	1	2	0	0	0	5	0	0	0	Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales; Neisseriaceae; Snodgrassella; Snodgrassella_alvi
+Otu638	1	0	2	0	1	0	1	0	0	2	0	1	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu496	0	2	6	3	0	3	1	6	1	2	2	5	1	1	5	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu495	0	0	0	1	0	2	0	0	0	0	0	8	0	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu721	0	0	0	0	0	0	0	0	0	0	0	0	2	0	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu462	0	5	3	0	1	0	0	0	2	5	0	8	2	0	3	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu463	0	0	0	0	0	0	0	0	0	10	0	0	0	0	0	0	Bacteria
+Otu460	0	0	0	0	0	0	0	0	0	1	2	8	0	2	8	6	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu461	0	0	0	0	0	0	0	0	2	0	0	8	1	2	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu466	4	6	0	1	1	14	0	18	0	0	0	4	0	7	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu467	1	0	0	14	0	3	0	0	0	6	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu464	16	259	217	273	364	224	262	39	31	59	210	206	180	483	156	611	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu465	0	0	0	7	5	7	4	0	0	0	0	0	0	0	0	6	Bacteria; Tenericutes; Mollicutes; RF39
+Otu468	0	0	0	0	0	0	0	0	1	0	0	0	1	6	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu469	0	1	5	1	4	7	7	2	0	0	7	1	1	0	1	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu549	0	0	0	0	0	0	0	0	0	0	0	0	5	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu548	2	0	0	0	2	3	0	2	1	0	0	1	0	5	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu545	5	1	0	0	0	0	1	0	0	0	0	0	1	0	0	1	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu544	0	0	8	0	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu547	0	0	0	2	0	0	0	0	0	0	0	0	0	0	4	0	Bacteria
+Otu546	0	0	0	1	0	0	0	0	0	0	0	11	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu541	8	15	9	3	27	24	7	206	7	87	10	6	7	16	6	9	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu540	0	0	1	2	2	2	0	5	3	0	3	4	4	1	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu543	0	0	0	0	0	0	0	0	0	0	6	0	5	0	1	9	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu542	0	0	0	0	1	1	0	2	0	5	1	6	3	1	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu608	29	68	53	14	34	63	120	27	133	110	128	110	117	70	140	147	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu609	0	0	0	0	0	0	0	2	1	0	0	2	1	0	0	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu602	47	127	38	4	4	17	2	31	22	0	0	1	4	12	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea
+Otu603	1	1	77	2	14	22	3	2	209	81	109	73	22	167	107	153	Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Akkermansia; Akkermansia_muciniphila
+Otu600	3	1	0	18	4	2	10	0	3	101	20	3	2	2	8	11	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu601	0	0	3	0	0	2	1	0	0	0	1	1	2	0	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu606	28	17	1	16	3	25	5	5	14	7	4	23	4	11	19	24	Bacteria; TM7; TM7-3; CW040; F16
+Otu607	128	8	0	15	8	0	1	0	6	678	6	5	66	101	13	136	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu604	5	3	0	20	7	0	10	0	1	0	1	1	49	13	9	12	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu605	0	2	0	9	0	0	3	0	2	0	0	0	2	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Roseburia
+Otu611	2	0	0	0	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu307	33	3	8	3	0	28	9	32	0	0	1	0	12	6	13	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu306	3	2	9	6	1	1	2	15	7	31	17	16	1	7	19	19	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu305	11	11	12	2	27	38	4	20	0	21	4	39	27	0	10	11	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu304	4	2	6	6	36	5	13	6	6	0	0	9	3	6	8	4	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu303	0	2	24	0	0	7	0	0	0	0	0	0	0	0	0	0	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu269	6	20	22	30	34	40	51	4	11	0	1	0	37	8	41	10	Bacteria; Tenericutes; Mollicutes; RF39
+Otu301	21	10	10	17	28	38	6	12	0	0	0	0	0	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu300	0	0	0	5	0	33	0	0	0	7	2	0	1	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu264	2	9	39	13	8	2	7	2	3	4	6	4	52	9	5	9	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu265	0	0	0	0	0	0	0	0	0	0	1	1	41	0	11	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu266	22	8	10	29	9	26	5	18	2	41	3	7	28	8	5	19	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu267	8	7	21	10	10	16	13	64	4	41	11	17	12	11	8	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu260	46	19	4	29	22	19	3	26	9	30	6	11	27	20	3	9	Bacteria; Firmicutes; Clostridia; Clostridiales; Dehalobacteriaceae; Dehalobacterium
+Otu261	0	4	35	79	0	1	29	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu262	0	4	3	14	1	5	7	5	0	4	10	43	7	1	22	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu308	38	7	13	14	21	19	10	22	0	26	8	21	12	37	4	25	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu116	31	65	161	329	258	70	157	119	6	4	5	3	5	3	6	11	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu117	230	99	59	281	58	247	4	300	83	104	182	20	46	141	96	27	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu114	107	29	34	297	24	181	14	23	62	2	29	2	65	91	44	8	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu115	0	0	0	0	0	0	0	0	0	0	0	0	311	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu112	35	37	313	22	116	34	55	181	12	203	119	40	66	22	70	25	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Parabacteroides; Parabacteroides_distasonis
+Otu113	0	119	52	106	133	13	9	0	5	231	55	3	20	1	1	0	Bacteria; Deferribacteres; Deferribacteres; Deferribacterales; Deferribacteraceae; Mucispirillum; Mucispirillum_schaedleri
+Otu110	20	392	41	22	398	4	19	54	0	317	57	52	165	218	94	347	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu111	319	68	61	54	187	134	279	93	37	6	0	6	89	47	3	22	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus
+Otu118	29	68	45	48	69	121	11	76	28	13	27	260	86	17	60	217	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu119	341	67	97	139	77	79	22	4	715	549	158	213	523	544	206	119	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu286	9	8	5	6	25	9	45	0	1	0	8	6	1	12	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu287	2	6	48	266	5	6	3	14	1	109	0	249	2	84	4	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu284	18	0	2	0	0	46	1	16	0	20	2	8	74	47	9	9	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu285	6	38	0	7	26	0	1	2	0	0	0	0	9	11	1	4	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu282	0	0	0	9	1	6	0	0	0	36	0	0	0	0	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu283	2	11	32	3	3	1	19	6	29	7	23	13	4	15	21	32	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu280	1	2	1	0	15	2	26	0	3	4	39	0	36	8	3	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu281	0	0	0	0	0	0	0	0	0	0	0	0	15	0	48	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea
+Otu288	0	2	0	8	1	0	0	34	0	3	0	5	4	0	0	6	Bacteria; Tenericutes; Mollicutes; RF39
+Otu289	31	22	95	109	58	41	152	8	169	35	114	47	135	117	82	104	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu720	0	0	0	2	0	0	0	0	0	0	0	0	3	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu38	1	1	0	0	1	5	9	1243	0	0	3	1	0	2	5	2	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales; Enterobacteriaceae
+Otu39	2	101	39	13	114	105	255	40	414	216	472	69	17	11	1230	26	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu36	22	5	5	20	3	2	11	7	88	245	12	308	1	1330	85	14	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu37	9	9	34	108	12	27	22	1381	433	394	495	839	168	559	157	331	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu34	0	0	0	0	0	0	0	0	898	0	295	1	1779	2	106	1069	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu35	266	249	178	1377	394	1136	184	9	584	72	23	18	18	173	26	58	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus
+Otu32	975	713	416	825	1131	1640	427	587	477	309	293	135	278	460	284	159	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu33	201	1122	58	72	91	107	45	19	0	5	1	13	1970	6	37	30	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu30	58	14	105	14	64	33	67	0	128	0	367	345	1769	4	834	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu31	105	108	298	1298	33	265	21	2277	57	194	80	75	79	217	456	20	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu163	34	3	0	1	6	5	0	27	63	131	0	0	111	46	1	7	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae; Rikenella
+Otu162	35	16	10	6	27	22	3	0	126	119	16	83	4	5	1	2	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu161	0	1	3	0	5	1	3	0	12	0	133	19	4	2	9	55	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu160	0	0	37	3	0	0	121	3	0	0	80	217	1	0	2	4	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu167	63	58	54	134	64	75	0	11	15	47	114	77	32	62	96	103	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu309	0	0	0	0	0	0	0	0	4	7	7	16	29	4	11	4	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae
+Otu165	2	0	0	4	23	28	12	0	2	36	12	2	159	2	34	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu164	10	66	109	88	59	117	45	125	1	112	49	95	36	95	86	69	Bacteria; Firmicutes; Clostridia; Clostridiales; Dehalobacteriaceae; Dehalobacterium
+Otu169	30	53	70	69	11	93	14	33	53	1	140	352	14	53	148	179	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu263	0	0	0	6	33	1	0	0	0	0	0	38	0	0	0	2	Bacteria; Tenericutes; Mollicutes; RF39
+Otu615	7	4	5	32	8	24	2	0	10	2	0	0	0	1	0	0	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus
+Otu83	75	46	22	34	150	37	4	398	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Odoribacteraceae; Odoribacter
+Otu82	6	40	22	50	33	18	82	93	256	345	15	251	18	212	560	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu81	1141	705	247	674	203	184	160	8	165	35	95	323	217	133	88	10	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu80	140	189	196	76	244	213	37	43	353	508	355	18	27	11	188	36	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu87	1	4	39	1	11	3	410	0	0	0	0	0	0	0	0	0	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu86	0	0	0	1	0	0	0	0	0	0	2	0	491	1	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu85	1	75	50	10	85	1	68	0	0	0	465	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Clostridium
+Otu84	0	5	13	56	414	75	180	0	99	251	23	29	5	61	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu89	366	487	0	25	6	0	1	18	0	99	3	4	497	156	5	23	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Roseburia
+Otu88	1	11	1	14	31	1	0	0	0	483	110	68	0	45	1	150	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu426	2	2	1	2	2	0	0	0	0	12	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu617	0	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu427	8	0	0	3	4	0	3	2	0	3	6	5	8	1	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu424	1	0	5	1	2	6	3	9	1	6	12	4	5	1	8	13	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides_uniformis
+Otu501	0	0	0	0	0	0	0	0	0	0	5	0	0	0	1	0	Bacteria; Proteobacteria; Alphaproteobacteria; RF32
+Otu500	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu503	0	2	0	2	0	0	0	1	0	8	0	0	0	5	0	0	Bacteria
+Otu425	0	0	1	3	0	0	0	0	0	0	0	17	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Clostridium
+Otu505	0	0	0	0	0	0	0	0	2	3	1	5	1	1	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu504	5	5	2	3	7	8	2	6	2	2	0	0	5	4	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu507	4	0	0	0	5	0	2	0	2	0	0	1	1	0	0	8	Bacteria; Tenericutes; Mollicutes; RF39
+Otu506	8	93	46	186	6	157	48	4	49	1	94	3	191	124	38	66	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu509	0	1	0	0	1	0	0	5	0	0	0	0	1	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu422	0	0	0	0	0	0	0	7	0	6	0	0	4	13	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu423	5	0	3	12	3	0	1	3	7	10	9	14	0	7	2	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu420	1	0	1	6	2	0	4	0	0	4	12	4	8	3	2	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Odoribacteraceae; Odoribacter
+Otu421	0	13	25	8	10	16	15	8	3	4	9	14	7	12	8	3	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu480	8	5	16	2	3	3	7	1	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu481	0	3	4	1	3	10	5	0	0	12	0	8	5	6	5	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu482	0	0	0	0	1	6	2	0	0	0	2	5	0	1	0	14	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu483	22	104	161	15	111	60	121	15	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Prevotella
+Otu484	1	2	0	0	1	12	0	4	0	0	1	4	4	1	2	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu485	2	1	3	0	0	2	0	3	2	2	1	11	0	2	2	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu338	8	6	11	1	6	7	6	17	1	3	6	21	9	16	23	8	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Bilophila
+Otu339	1	13	5	2	0	4	1	0	0	16	4	21	6	16	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu336	1	1	6	5	1	0	0	44	1	5	5	10	11	3	3	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu337	25	6	24	8	4	4	5	21	2	6	3	5	1	17	1	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu334	1	9	5	3	1	5	3	5	7	2	1	0	0	22	14	27	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu335	2	5	0	4	0	0	0	8	1	30	2	4	2	5	6	11	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu332	989	23	0	9	42	3	16	1	0	0	0	1	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu333	3	1	2	2	8	4	12	20	14	10	14	0	4	6	9	10	Bacteria; Firmicutes; Clostridia; Clostridiales; Christensenellaceae
+Otu330	0	1	5	16	2	4	5	17	0	25	25	25	0	27	42	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu331	1	6	39	1	5	2	30	0	0	0	0	0	13	0	4	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu645	6	39	0	88	0	0	36	12	48	10	1	18	23	126	11	29	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu657	11	31	61	8	163	59	33	7	16	9	32	132	2	8	27	20	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu640	1	2	0	0	0	2	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu641	1	0	1	0	1	0	2	1	14	6	2	3	2	6	6	3	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu349	0	0	1	9	0	0	0	21	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu348	2	3	3	0	5	2	0	1	0	1	23	7	0	1	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu439	0	6	7	3	0	13	12	1	12	1	0	6	0	0	3	8	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu438	0	0	0	0	0	0	0	0	0	8	4	0	0	4	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu343	3	1	10	6	8	2	14	0	9	0	86	3	11	24	4	21	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu342	0	0	0	4	2	0	0	1	0	0	0	0	21	3	0	2	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu341	0	0	1	8	28	33	0	7	0	0	0	0	0	4	3	7	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu340	4	2	4	5	4	18	2	16	9	2	21	4	4	0	3	4	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu347	0	1	2	4	1	1	7	11	4	27	1	1	0	2	4	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu346	0	1	1	2	0	1	0	73	0	0	1	1	1	7	2	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu345	0	0	0	0	0	0	0	0	28	10	40	3	5	18	45	28	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu344	1	3	4	3	14	4	5	0	0	0	0	0	0	4	21	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu655	0	8	10	13	21	8	42	3	2	0	0	32	2	15	58	28	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu654	0	0	0	1	0	0	0	0	0	0	0	0	4	0	1	0	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu158	82	61	6	23	7	9	58	6	6	8	3	129	56	202	31	69	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptostreptococcaceae
+Otu159	0	3	0	3	3	0	27	0	0	1	10	188	6	73	2	6	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu651	1	3	0	3	3	1	12	13	2	0	1	36	5	10	39	35	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu650	0	0	0	0	0	0	0	4	1	2	27	20	1	0	6	3	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides
+Otu653	0	0	0	1	0	0	0	0	0	0	0	2	0	0	0	0	Bacteria; Bacteroidetes
+Otu652	0	0	0	0	1	0	0	1	9	7	303	63	5	0	5	15	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides
+Otu152	6	15	38	16	16	11	5	124	42	19	17	25	12	29	210	178	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu153	38	43	28	135	170	15	29	0	0	0	7	3	25	8	16	14	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu150	176	75	96	57	41	71	57	108	147	117	111	160	46	71	57	5	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu151	0	0	0	0	0	0	0	0	0	174	0	0	0	48	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu156	73	22	57	87	38	70	134	128	73	54	157	42	101	177	54	161	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu157	0	10	183	1	8	12	0	24	0	6	1	0	100	5	5	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu154	23	72	38	105	23	131	70	280	4	48	53	48	24	124	66	73	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu155	1	24	29	11	22	20	2	48	36	0	0	142	32	111	57	155	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu72	332	373	290	570	418	236	594	395	66	442	56	79	130	458	167	44	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu73	256	312	298	750	354	396	454	612	382	258	43	47	94	57	277	24	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu70	0	26	9	0	62	0	3	0	2	7	50	0	50	7	634	302	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Prevotellaceae; Prevotella
+Otu71	715	126	192	83	529	302	261	58	116	174	0	84	115	223	13	73	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus; Lactobacillus_reuteri
+Otu76	681	345	354	605	476	468	221	307	316	354	361	182	168	250	188	135	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu77	41	0	2	2	0	124	12	6	4	24	114	176	12	4	6	564	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+Otu74	1	0	6	0	2	5	0	0	89	34	89	587	0	27	24	106	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu75	5	20	68	43	33	74	85	62	1	168	167	593	73	64	348	32	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu563	3274	2517	901	1158	900	981	1295	964	188	491	25	0	361	61	45	21	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu78	8	0	1	444	0	17	265	0	264	6	0	40	0	34	25	5	Bacteria; Tenericutes; Mollicutes; RF39
+Otu79	8	6	87	3	0	6	8	0	101	0	0	0	326	464	225	73	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu562	0	0	0	0	0	0	0	0	12	18	19	22	117	111	208	45	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Prevotella
+Otu237	0	0	0	0	0	0	0	0	0	1	7	33	56	9	11	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu236	0	0	1	21	1	12	0	0	9	2	13	77	9	47	26	7	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu235	9	15	12	33	7	12	6	61	42	21	0	0	5	3	9	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu234	11	11	1	31	7	8	0	0	5	30	16	15	34	6	62	11	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu233	15	0	3	8	24	18	0	0	30	0	38	28	2	39	75	9	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu232	12	50	95	105	11	25	23	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu231	3	1	0	0	0	1	0	10	22	0	0	0	76	35	16	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu230	0	3	3	2	54	46	1	53	0	0	0	0	11	2	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu378	0	0	2	2	0	1	1	15	0	6	7	4	4	12	25	7	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu239	48	64	0	0	0	0	0	0	38	3	6	0	0	13	30	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu238	61	29	14	16	8	5	1	1	0	0	0	0	0	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu569	2	0	1	0	6	2	0	1	1	0	0	0	1	1	0	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales
+Otu568	0	0	2	3	0	4	3	0	0	0	0	1	2	0	4	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Butyricicoccus; Butyricicoccus_pullicaecorum
+Otu612	0	0	10	5	2	2	9	12	0	4	0	0	0	0	1	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu166	5	11	9	174	4	0	77	34	11	0	0	0	4	4	10	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu168	33	66	76	239	55	133	113	111	17	6	51	24	82	21	42	49	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu8	3158	5440	1239	2343	8587	1766	2325	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu9	646	1793	2245	1967	3094	4558	2215	23	10	7	1	23	2	415	2	9	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu6	44	132	207	51	401	73	80	340	1435	2018	7028	2319	1984	539	572	1644	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides_acidifaciens
+Otu7	46	561	1491	5851	15	2262	138	3	184	545	4	7	2	180	182	153	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu4	14	7222	1933	2536	6	1	9339	8410	8	0	0	1	7	168	3853	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu5	8551	7	13	0	97	938	6	7	83	42	109	22	4764	48	137	819	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu2	12992	9513	3156	4138	3130	3776	5353	3639	876	1760	80	5	1088	244	190	68	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu3	357	3105	8358	494	4805	2589	2941	475	0	0	0	0	0	0	0	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Prevotella
+Otu1	13	15	3457	33	233	898	33	21	16400	2748	13471	4169	493	12477	11338	19517	Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Akkermansia; Akkermansia_muciniphila
+Otu387	1	0	0	0	0	0	0	0	0	0	10	12	3	2	0	1	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu386	0	0	19	1	0	0	0	0	2	0	3	8	8	0	16	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Christensenellaceae
+Otu385	9	7	7	2	11	9	0	17	0	6	3	0	0	0	5	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus
+Otu471	9	0	2	0	1	2	0	0	0	0	0	1	0	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu470	0	0	0	2	3	1	1	2	2	4	1	10	5	0	4	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu473	5	2	1	1	3	1	1	1	6	1	0	1	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Christensenellaceae; Christensenella
+Otu384	0	0	0	0	0	0	0	0	0	0	0	14	5	4	16	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu475	79	146	13	29	59	710	8	62	21	1299	8	56	24	8	10	5	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu474	0	0	0	0	0	1	2	7	0	0	0	0	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu477	0	0	0	0	0	0	1	1	0	7	2	10	7	3	1	10	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu476	1	0	1	0	0	0	0	0	9	2	0	0	1	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu479	0	3	2	1	2	2	1	9	2	3	2	3	7	3	2	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu383	0	0	3	0	0	1	1	6	5	12	4	1	26	0	15	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu382	28	24	76	28	61	68	120	12	15	11	13	20	28	25	15	42	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu578	1	2	1	2	0	4	0	0	0	0	0	0	4	1	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu579	0	1	4	0	1	3	0	3	1	0	0	2	0	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu648	0	0	0	4	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu381	0	10	57	50	5	37	59	139	19	87	161	127	35	71	78	12	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu570	0	2	1	0	1	1	3	4	0	0	0	0	1	2	2	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu571	0	0	0	0	0	0	0	0	0	0	0	0	0	0	3	0	Bacteria; Tenericutes; RF3; ML615J-28
+Otu572	0	0	0	0	0	0	0	0	1	3	0	3	2	1	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu380	0	0	0	2	0	0	0	0	0	5	1	20	1	19	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu574	0	0	0	0	1	0	0	0	1	0	4	0	1	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu575	98	105	80	97	139	141	131	59	46	207	46	9	44	85	25	144	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu576	0	0	0	0	0	0	0	0	1	0	0	0	4	0	0	6	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu577	0	0	3	1	0	2	4	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu619	0	0	0	0	0	0	0	0	0	0	2	1	0	0	1	0	Bacteria; Proteobacteria; Alphaproteobacteria
+Otu618	0	0	0	0	0	1	0	0	0	2	1	10	4	0	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu208	38	52	13	74	3	49	14	10	17	3	0	65	12	1	7	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu209	1	3	11	39	0	23	2	0	219	222	249	142	115	86	141	38	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu206	0	0	0	0	0	0	0	0	9	34	3	40	98	47	66	69	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu207	0	0	4	0	0	5	26	0	11	7	77	33	4	5	2	1	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu204	2	8	14	42	14	15	8	12	11	7	6	9	5	1	122	32	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu205	0	0	0	9	5	11	0	7	83	0	0	0	6	0	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu202	8	22	33	36	17	28	65	17	6	50	9	77	21	61	184	34	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu203	1	5	45	7	46	10	25	91	5	82	6	43	60	9	58	6	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu200	26	32	36	16	90	53	5	0	40	20	8	3	76	41	15	21	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu201	108	1	0	3	0	0	14	0	4	0	5	0	0	25	3	13	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu659	0	0	0	0	0	0	0	0	0	2	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu620	6	11	0	1	32	10	0	11	3	0	0	11	4	3	9	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea
+Otu682	5	2	2	37	19	2	2	6	1	0	0	0	5	0	7	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu683	0	0	4	1	3	8	5	6	0	4	4	15	21	7	9	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu680	2	1	0	1	0	0	0	1	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu681	3	1	0	0	0	1	0	1	0	0	2	1	1	1	0	2	Bacteria; Firmicutes; Bacilli; Bacillales; Staphylococcaceae; Staphylococcus
+Otu686	1	1	0	1	3	2	0	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales
+Otu687	2	2	0	1	0	0	0	2	2	0	0	0	0	0	0	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides; Bacteroides_nordii
+Otu684	0	0	0	3	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu685	1	11	34	12	1	27	7	25	15	98	55	58	6	84	39	122	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu688	0	0	0	1	0	1	1	0	0	15	0	5	0	2	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu689	10	13	4	9	1	20	17	11	1	5	3	29	6	26	16	40	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu658	0	0	3	0	0	0	0	2	0	4	1	1	0	0	0	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu372	22	2	0	2	0	5	1	0	1	1	0	0	1	0	0	1	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu373	0	0	1	0	0	1	1	3	0	21	12	23	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu279	0	0	0	0	0	0	0	0	2	0	21	42	13	8	11	3	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu278	2	3	2	43	0	0	0	44	0	0	0	0	26	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu376	3	10	6	7	5	8	6	0	5	10	7	20	11	12	1	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu377	6	4	0	3	12	8	3	8	1	18	3	2	2	3	3	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu374	0	8	4	21	2	2	4	33	0	2	2	2	4	6	6	7	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu375	0	0	0	0	0	0	0	0	0	0	0	0	21	0	0	0	Bacteria
+Otu273	0	0	2	0	18	15	0	7	0	12	28	39	22	3	2	35	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Anaerostipes
+Otu272	4	11	21	32	15	32	39	29	10	39	8	24	1	19	8	29	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu271	0	0	0	0	0	0	0	48	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu270	0	15	8	21	6	0	7	0	0	3	21	18	17	38	7	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu277	4	5	3	14	7	10	5	7	0	14	11	55	2	8	8	20	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu276	2	3	13	4	9	16	3	0	0	0	12	10	41	18	23	24	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu275	0	2	4	13	12	15	39	0	1	3	1	66	1	3	12	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu274	57	55	0	610	23	0	143	50	34	6	57	87	17	122	15	238	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu105	0	0	357	0	0	1	0	274	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu104	47	14	8	16	9	28	5	370	331	394	121	454	40	137	92	9	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu107	0	140	4	0	349	144	3	1	0	0	12	0	0	1	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Ruminococcus; Ruminococcus_gnavus
+Otu106	0	0	0	0	0	0	0	0	124	0	5	345	197	0	1	337	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus_flavefaciens
+Otu101	353	376	631	723	453	594	108	159	81	320	411	200	94	95	69	79	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu100	1	0	10	29	0	47	2	0	0	109	0	0	3	0	33	544	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu103	0	0	0	0	0	0	0	0	0	1	290	160	68	13	344	55	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu102	135	268	306	904	90	396	108	356	101	227	1	30	2	75	161	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu109	2	11	55	6	16	7	10	125	17	19	403	145	45	2	330	79	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides
+Otu108	0	0	0	0	0	0	0	0	42	1	245	95	273	136	80	1	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Helicobacter
+Otu295	20	4	7	13	9	21	20	11	29	30	2	13	4	37	15	16	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu294	14	5	0	0	37	0	1	0	0	0	0	0	0	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu297	5	8	23	16	2	31	9	31	3	31	10	9	9	13	3	5	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu296	53	8	4	16	6	39	2	6	7	8	0	2	6	9	4	8	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu291	0	2	1	3	1	7	0	17	0	1	0	2	43	18	29	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu290	0	10	0	37	0	0	0	11	2	0	0	9	1	0	13	3	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu293	0	0	0	0	0	0	0	0	0	7	43	5	23	0	61	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Odoribacteraceae; Butyricimonas
+Otu292	1	0	8	1	4	2	17	20	27	21	1	0	19	15	33	33	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu299	1	5	1	29	16	1	1	49	0	0	0	0	0	23	16	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu298	2	0	0	6	7	30	2	1	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu703	0	0	0	0	0	0	0	0	0	0	0	0	0	0	1	5	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu702	1	0	0	1	0	0	0	4	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu701	3	1	2	5	0	10	0	8	0	2	2	0	0	4	1	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu497	8	0	1	4	5	8	7	4	6	3	0	2	2	1	3	2	Bacteria; Firmicutes; Bacilli; Lactobacillales; Streptococcaceae; Streptococcus
+Otu700	0	0	0	0	0	0	0	0	0	0	0	0	0	3	2	2	Bacteria; Firmicutes
+Otu198	1	5	26	23	6	10	2	2	4	53	7	108	16	8	26	20	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu199	1	0	0	20	31	4	4	11	16	7	9	3	19	25	85	55	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu196	25	0	8	1	27	20	0	63	0	15	51	113	3	19	10	10	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu197	9	0	0	83	0	64	0	0	0	0	0	0	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu194	1	4	3	6	8	1	0	108	0	0	0	0	3	0	4	19	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu195	0	0	8	14	3	110	35	0	67	41	2	0	1	3	1	48	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu192	11	1	6	6	12	52	7	0	24	88	0	16	53	17	13	26	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu193	5	9	15	6	1	8	12	9	3	45	14	107	18	9	94	61	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu190	0	0	3	36	0	0	1	15	8	97	20	17	1	3	54	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales
+Otu191	18	58	20	129	102	5	0	6	5	15	72	13	12	6	5	39	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu494	0	0	0	0	0	0	0	7	0	0	0	0	0	0	0	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas
+Otu705	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu493	1	3	40	0	42	24	6	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu704	2	1	3	0	0	1	2	0	0	2	1	1	0	0	0	1	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu492	0	0	1	0	1	0	0	0	0	0	1	0	1	0	5	1	Bacteria; Bacteroidetes
+Otu491	0	0	0	0	0	0	0	0	0	0	0	0	1	7	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu490	0	1	8	2	0	0	0	2	1	0	0	0	8	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu98	13	15	28	15	102	213	3	8	5	453	15	10	13	105	4	33	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu99	92	75	396	138	351	83	280	4	2	152	24	33	2	15	3	24	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio
+Otu94	4	18	4	460	1	3	4	337	3	136	1	105	33	236	28	377	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu95	11	106	391	43	41	42	100	0	8	28	7	12	29	84	5	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Paraprevotella
+Otu96	13	107	49	431	4	10	1	3	443	308	0	5	65	269	160	3	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu97	16	1	0	9	463	11	2	0	0	0	1	63	30	0	1	20	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu90	12	107	49	37	13	184	80	18	153	18	71	191	222	53	441	561	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu91	8	56	94	94	63	104	64	157	11	91	67	150	89	58	518	45	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu92	0	0	0	0	0	0	0	0	11	33	6	2	25	5	11	491	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu93	76	109	63	74	6	408	14	33	15	3	7	7	3	11	17	12	Bacteria; Tenericutes; Mollicutes; RF39
+Otu538	1	5	3	1	2	5	3	3	0	4	2	6	2	2	0	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Mogibacteriaceae
+Otu539	0	0	0	0	0	0	0	0	1	0	4	2	1	1	2	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Christensenellaceae
+Otu534	98	12	0	13	87	19	6	0	2	332	13	247	83	87	23	35	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu535	0	0	0	0	5	0	0	0	0	0	11	3	2	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu536	46	71	89	125	15	10	42	394	4	7	3	1	4	5	4	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu537	1	1	0	2	9	0	2	0	0	0	1	0	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu530	2	0	0	3	0	0	0	0	5	0	0	2	0	0	1	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu531	0	0	0	0	0	0	0	0	0	0	2	0	1	0	5	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu532	0	0	0	2	0	0	0	0	0	0	4	6	0	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu533	0	0	0	0	0	0	1	0	0	0	5	1	1	0	5	4	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu329	2	2	0	0	3	0	4	0	1	50	0	8	0	24	5	15	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu328	1	8	17	5	0	29	1	21	0	0	0	0	0	0	9	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Bacteroidaceae; Bacteroides
+Otu499	1	1	1	0	3	0	5	0	3	6	1	7	5	3	1	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Christensenellaceae
+Otu498	0	0	0	0	0	0	0	0	0	0	0	0	8	0	0	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu325	1	0	0	5	2	23	0	5	10	2	0	6	5	5	0	3	Bacteria; Tenericutes; Mollicutes; RF39
+Otu324	0	0	6	0	0	36	0	0	0	0	0	0	3	0	5	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu327	15	8	2	6	10	24	8	13	5	15	0	17	1	4	5	2	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu326	24	17	30	6	5	10	34	11	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu321	0	0	0	0	0	0	2	0	0	0	3	15	7	2	22	37	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu320	0	0	0	0	0	0	0	0	0	0	0	0	28	0	12	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu323	20	36	11	4	14	5	48	31	3	5	7	2	110	6	5	27	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu322	3	3	14	29	1	23	13	31	0	1	0	1	2	4	0	5	Bacteria; Tenericutes; Mollicutes; RF39
+Otu302	0	0	3	8	0	0	0	4	8	1	0	35	2	4	5	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Peptococcaceae
+Otu408	2	0	0	21	2	3	0	0	0	0	1	1	3	0	0	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Clostridium; Clostridium_colinum
+Otu409	15	1	0	17	0	23	1	1	1	6	1	8	14	24	0	3	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu400	1	3	3	9	3	12	3	0	3	1	1	0	9	2	17	7	Bacteria; Proteobacteria; Gammaproteobacteria; Enterobacteriales; Enterobacteriaceae; Escherichia; Escherichia_coli
+Otu401	4	1	0	2	0	1	1	3	4	0	1	0	0	2	0	13	Bacteria; Tenericutes; Mollicutes; RF39
+Otu402	1	0	2	0	0	21	6	0	0	5	0	4	1	1	3	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu403	0	0	1	0	0	3	0	18	0	3	0	2	1	2	3	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu404	2	3	0	0	3	2	10	2	8	1	20	4	2	0	10	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu405	1	0	10	1	1	0	0	24	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu406	0	0	0	0	0	0	0	0	0	1	2	0	0	0	14	0	Bacteria; Proteobacteria; Gammaproteobacteria; Pasteurellales; Pasteurellaceae; Aggregatibacter; Aggregatibacter_pneumotropica
+Otu407	164	26	14	205	68	94	35	17	7	175	28	140	27	15	46	9	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu149	6	6	11	20	80	8	3	0	0	0	157	17	4	0	4	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu148	24	40	25	57	18	16	9	44	11	28	16	292	40	54	32	116	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu662	1	15	1	0	0	7	9	1	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu663	0	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae
+Otu664	0	0	0	2	1	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu665	0	0	0	1	0	3	0	2	0	0	1	2	2	0	5	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu666	3	3	11	5	0	3	0	12	6	0	0	1	0	0	9	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu667	0	0	0	0	0	0	0	0	8	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu141	5	18	41	36	23	4	57	0	16	17	49	176	50	109	49	52	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu140	9	7	5	19	5	1	2	0	24	226	5	23	20	5	47	27	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu143	0	0	1	44	17	0	0	3	1	206	6	1	19	72	11	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu142	4	13	35	19	22	3	4	4	4	35	14	99	7	19	27	216	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu145	165	132	43	106	37	33	21	1	185	61	20	73	383	79	31	5	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu144	220	74	71	43	33	175	37	32	18	66	2	0	3	17	8	21	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu147	236	121	165	212	305	125	71	163	35	21	32	66	80	84	135	213	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu146	0	22	101	67	28	19	73	162	9	141	44	142	37	52	176	29	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu390	0	0	0	8	0	0	0	0	12	0	0	0	0	1	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu391	8	5	0	3	0	5	1	16	8	4	0	0	1	1	1	0	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu392	1	0	0	2	0	0	1	0	0	5	0	3	16	6	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu393	1	11	12	0	3	20	3	0	0	0	0	0	1	0	7	2	Bacteria; Tenericutes; Mollicutes; RF39
+Otu394	0	1	1	0	1	1	13	1	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu395	0	0	0	0	0	0	0	0	0	0	0	0	17	1	14	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu49	234	393	251	419	239	163	80	847	283	57	685	524	91	343	266	159	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu48	1	46	0	0	854	0	3	0	2	8	2	72	80	0	18	168	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Prevotellaceae; Prevotella
+Otu47	25	15	2	55	8	1	6	0	30	956	0	0	1	2	1	84	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu46	61	140	246	226	316	140	163	960	261	304	221	150	199	180	147	70	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu45	493	238	146	229	857	764	425	116	254	548	4	809	343	830	63	270	Bacteria; Firmicutes; Bacilli; Lactobacillales; Lactobacillaceae; Lactobacillus
+Otu44	22	18	64	257	365	3	0	21	62	1	8	824	42	184	268	1214	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu43	32	112	90	87	295	26	505	124	46	11	431	2156	284	576	2138	844	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu42	14	8	0	14	8	2	0	0	337	0	504	27	1290	290	21	475	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu41	3	22	37	16	23	561	45	13	37	0	179	92	0	121	175	1233	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu40	78	0	0	108	82	0	1194	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu242	2	5	30	3	28	52	6	1	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Coprobacillus
+Otu243	0	1	1	0	4	0	64	0	0	0	2	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu240	0	23	28	24	17	32	2	48	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu241	2	5	8	1	30	23	5	48	10	43	6	36	6	17	49	4	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae; Alistipes; Alistipes_indistinctus
+Otu246	0	0	0	0	0	0	0	0	0	3	8	0	1	115	11	70	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Clostridium
+Otu247	27	11	10	4	6	14	7	47	11	6	0	8	4	3	2	1	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae
+Otu244	5	7	22	34	10	37	17	49	10	13	18	84	7	31	18	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Butyricicoccus; Butyricicoccus_pullicaecorum
+Otu245	1	5	2	14	1	3	3	21	45	17	1	1	0	35	2	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu248	11	6	1	59	1	1	5	1	19	0	1	1	0	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu249	0	8	24	11	5	8	11	12	2	31	12	93	26	30	41	9	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu718	0	0	1	24	1	31	1	11	3	7	18	84	0	12	0	38	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea
+Otu719	0	7	5	0	28	0	0	1	34	11	104	353	104	95	3	179	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu472	3	32	231	0	2	37	6	1	6	54	1	2	35	322	1	43	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu478	0	0	1	1	2	0	0	3	1	9	1	1	3	0	1	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu660	0	0	1	0	1	0	1	0	0	1	0	0	4	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu661	0	2	2	7	0	1	0	0	0	2	0	0	0	1	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu668	1	1	0	0	1	1	7	4	0	0	3	4	0	0	1	2	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu669	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu598	0	0	0	0	0	0	0	0	0	0	1	1	0	1	3	4	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Coprobacillus
+Otu599	1	0	2	1	0	1	1	4	0	0	1	0	1	2	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu592	0	0	0	1	0	0	0	1	0	0	0	0	4	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu593	1	1	0	0	0	0	0	0	1	2	1	5	0	0	1	5	Bacteria; TM7; TM7-3; CW040; F16
+Otu590	73	5	5	1	5	4	2	0	0	3	25	0	2	35	16	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu591	0	0	0	0	0	0	0	0	66	85	31	115	97	516	757	281	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu596	0	0	2	0	2	2	2	0	0	1	0	0	1	0	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu597	184	2	0	0	312	0	3	109	13	0	1	2223	0	0	1	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu594	0	0	0	0	0	2	0	0	1	1	1	3	0	0	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu595	4	1	1	0	8	1	6	3	0	0	0	0	0	1	4	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu502	1	0	0	0	0	0	0	0	1	3	3	0	4	2	4	8	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu567	0	0	0	0	0	0	0	0	3	5	2	3	35	33	71	8	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Prevotella
+Otu566	0	0	2	0	0	0	0	4	0	0	0	0	3	0	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus
+Otu565	0	0	0	0	0	0	0	2	0	8	0	2	0	1	1	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu564	0	0	0	0	0	0	0	0	3	0	6	0	0	0	19	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu448	6	0	2	5	0	2	10	11	3	0	0	0	2	1	11	4	Bacteria; Tenericutes; Mollicutes; RF39
+Otu449	0	41	143	305	153	736	183	350	791	1	1406	99	1069	544	411	1750	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu561	24	22	11	5	11	44	15	3	0	9	4	5	9	1	11	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu560	1	0	0	0	0	0	0	3	0	0	2	0	1	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu444	2	2	0	7	4	2	5	0	0	0	0	0	0	0	0	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu445	4	2	1	11	3	0	2	9	0	0	1	0	1	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu446	0	0	0	0	0	7	0	0	0	0	0	0	0	0	0	0	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu447	0	0	0	0	1	0	1	0	2	2	3	13	4	1	12	7	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae
+Otu440	0	6	6	5	4	5	6	11	0	0	4	11	0	0	0	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu441	0	0	0	1	1	1	0	1	8	8	2	2	0	0	7	10	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea
+Otu442	0	1	0	1	2	3	1	6	0	8	2	4	10	3	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu443	0	1	1	9	0	3	1	11	1	0	0	0	6	8	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu508	0	0	7	1	3	4	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu219	0	0	0	2	0	0	0	0	5	0	18	107	42	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu218	77	7	76	28	13	114	25	17	6	6	5	3	0	6	5	27	Bacteria; Tenericutes; Mollicutes; RF39
+Otu215	114	11	5	14	13	50	5	17	76	36	7	16	8	8	10	13	Bacteria; TM7; TM7-3; CW040; F16
+Otu214	0	7	41	21	5	2	52	19	0	7	22	110	52	63	36	30	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu217	1	7	13	1	8	2	4	27	11	13	9	63	11	0	53	5	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Parabacteroides
+Otu216	0	0	0	0	0	0	0	0	5	11	39	76	53	10	51	3	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu211	0	10	8	14	22	0	16	78	2	0	0	0	0	8	28	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu210	0	3	6	13	5	11	2	0	7	95	0	38	6	4	0	2	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu213	1	0	0	8	2	0	90	1	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu212	13	60	17	2	3	8	3	9	0	0	12	26	0	19	11	92	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu398	0	0	0	16	2	3	1	0	0	0	0	13	0	11	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu399	12	6	11	0	7	9	1	4	0	0	0	0	0	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Rikenellaceae
+Otu691	0	2	0	0	1	2	0	0	0	2	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu690	12	0	0	12	0	1	6	0	1	0	0	5	0	15	2	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu693	7	0	0	3	11	2	7	2	1	8	1	5	0	4	1	13	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu692	0	0	0	1	0	0	0	1	10	2	0	1	0	6	1	1	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio_C21_c20
+Otu695	0	0	1	0	2	3	0	42	0	0	2	29	1	1	9	17	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu694	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Clostridium; Clostridium_methylpentosum
+Otu697	1	3	0	0	2	0	0	1	1	0	0	0	4	2	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu696	9	0	0	0	2	3	2	6	0	2	0	0	0	0	0	0	Bacteria
+Otu699	0	3	0	1	0	0	1	2	1	3	1	2	3	7	8	4	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu698	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu361	0	0	0	0	0	0	0	0	0	0	2	0	26	0	0	0	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio
+Otu360	0	0	3	0	3	21	0	5	1	0	0	0	0	1	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu363	0	4	18	5	18	12	3	42	2	11	13	17	10	9	1	10	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu362	2	1	21	1	0	0	0	0	2	0	1	10	7	5	5	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu365	0	0	0	0	0	0	0	0	0	1	13	15	1	0	17	10	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu364	1	16	0	0	34	0	3	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu367	0	0	0	28	0	0	0	0	3	36	0	4	4	15	5	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu366	0	0	0	0	0	0	0	40	0	1	4	30	1	20	7	2	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu369	4	4	2	2	10	5	9	2	8	4	3	4	9	3	2	15	Bacteria; Cyanobacteria; 4C0d-2; YS2
+Otu368	37	0	0	0	10	5	4	0	0	1	0	0	0	0	0	0	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu613	151	161	115	220	226	80	133	0	10	72	4	8	28	46	25	7	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu621	0	0	0	0	0	0	0	0	0	0	0	0	3	0	0	0	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu130	2	19	89	65	2	1	6	69	0	15	56	251	5	12	15	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu131	14	13	0	6	3	229	0	11	9	0	0	0	3	12	5	0	Bacteria; Tenericutes; Mollicutes; RF39
+Otu132	81	67	42	226	172	141	56	44	120	19	15	6	198	22	61	71	Bacteria; Firmicutes; Clostridia; Clostridiales; Clostridiaceae; Clostridium
+Otu133	2	10	16	0	7	1	17	2	6	2	97	258	12	8	0	25	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu134	43	12	55	8	51	119	25	47	120	60	52	176	35	76	9	343	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae
+Otu135	0	0	0	0	0	0	0	0	3	0	207	0	0	0	62	1	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Ruminococcus; Ruminococcus_flavefaciens
+Otu136	12	188	267	220	78	134	134	231	87	59	108	781	241	306	395	95	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu137	26	4	41	14	16	52	5	6	19	1	8	104	226	39	46	7	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Dorea
+Otu138	5	13	95	78	78	5	33	175	0	139	0	14	2	1	112	5	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Porphyromonadaceae; Parabacteroides
+Otu139	23	27	46	59	41	55	23	214	109	175	61	151	43	69	62	11	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu614	5	8	10	8	4	10	4	6	8	13	3	1	1	3	2	1	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu14	7	5	7	44	5	8	3	3702	16	116	9	14	10	12	56	11	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu15	3	150	848	35	429	5	3435	2	59	0	120	2	101	40	51	77	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu16	0	0	0	0	0	0	0	0	2343	1555	456	3182	2654	2031	1453	1138	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu17	364	132	294	110	2882	644	722	180	1204	0	770	273	784	600	406	1678	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu10	428	519	171	220	40	142	1649	345	4178	2602	2	14	165	97	15	4	Bacteria; Firmicutes; Erysipelotrichi; Erysipelotrichales; Erysipelotrichaceae; Allobaculum
+Otu11	552	170	245	10	257	4284	505	5022	1547	1964	18	341	52	744	66	20	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; S24-7
+Otu12	1204	334	135	682	88	1511	241	3042	3167	2210	94	1301	2198	3551	642	1163	Bacteria; Proteobacteria; Deltaproteobacteria; Desulfovibrionales; Desulfovibrionaceae; Desulfovibrio; Desulfovibrio_C21_c20
+Otu13	0	0	0	0	0	0	1	0	185	3491	594	128	0	0	0	13	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Helicobacter
+Otu616	0	0	1	0	0	0	0	0	2	0	0	2	0	8	0	3	Bacteria; Verrucomicrobia; Verrucomicrobiae; Verrucomicrobiales; Verrucomicrobiaceae; Akkermansia; Akkermansia_muciniphila
+Otu18	0	0	0	0	2	1	0	0	108	213	144	222	1088	1274	2373	562	Bacteria; Bacteroidetes; Bacteroidia; Bacteroidales; Paraprevotellaceae; Prevotella
+Otu19	55	545	3011	1	305	1451	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae; Coprococcus
+Otu706	0	0	0	2	0	0	0	0	0	0	0	0	0	0	0	0	Bacteria
+Otu628	0	0	1	0	0	1	2	0	0	0	1	1	0	2	2	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu629	332	51	1	61	282	20	5	3	41	38	11	118	161	486	44	67	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu624	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu625	1	1	1	0	0	3	0	0	2	0	1	0	2	0	3	3	Bacteria; Firmicutes; Bacilli; Lactobacillales; Enterococcaceae; Enterococcus
+Otu626	0	0	0	0	0	0	0	0	0	2	0	0	0	0	1	0	Bacteria; Tenericutes; Mollicutes; Anaeroplasmatales; Anaeroplasmataceae; Anaeroplasma
+Otu627	0	2	0	0	3	0	0	0	0	3	0	0	0	0	0	1	Bacteria; Actinobacteria; Coriobacteriia; Coriobacteriales; Coriobacteriaceae; Adlercreutzia
+Otu189	12	0	2	12	2	10	1	0	0	103	2	46	32	42	1	30	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu188	6	12	0	13	3	10	1	140	1	3	3	0	2	1	6	8	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu622	0	0	0	0	0	0	0	0	0	0	0	0	0	2	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae
+Otu623	1	0	1	3	0	2	1	5	0	1	0	1	4	5	1	6	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu185	54	31	21	14	28	39	114	10	55	31	2	12	45	123	9	15	Bacteria; Actinobacteria; Actinobacteria; Bifidobacteriales; Bifidobacteriaceae; Bifidobacterium
+Otu184	25	10	27	209	13	28	5	14	46	14	7	8	18	139	0	62	Bacteria; Firmicutes; Clostridia; Clostridiales; Lachnospiraceae
+Otu187	1	30	0	0	177	1	0	0	0	0	0	0	0	0	0	0	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu186	4	50	121	3	58	0	3	7	0	0	1	1	5	0	2	1	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu181	0	3	10	1	2	1	10	1	1	5	7	120	25	10	11	0	Bacteria; Firmicutes; Clostridia; Clostridiales; Ruminococcaceae; Oscillospira
+Otu180	0	0	0	0	0	0	0	0	65	165	3	2	0	0	0	0	Bacteria; Proteobacteria; Epsilonproteobacteria; Campylobacterales; Helicobacteraceae; Helicobacter; Helicobacter_hepaticus
+Otu183	38	73	26	92	82	10	71	12	25	8	49	92	22	43	22	177	Bacteria; Firmicutes; Clostridia; Clostridiales
+Otu182	1	10	5	7	112	5	14	0	0	10	23	49	0	14	1	100	Bacteria; Firmicutes; Clostridia; Clostridiales

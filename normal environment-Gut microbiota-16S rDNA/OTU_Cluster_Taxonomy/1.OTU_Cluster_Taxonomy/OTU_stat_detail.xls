@@ -1,0 +1,30 @@
+Num samples: 16
+Num total OTUs: 721
+Num Singletons: 0
+Num Non-singletons: 721
+Num total sequences: 798411
+
+Sample all OTU summary:
+ Min: 393
+ Max: 497
+ Mean: 439
+ Standard deviation: 32
+
+Sample detail:
+Sample name	Tag number	OTU number
+611A	50909	409
+612A	51137	424
+621A	48911	439
+622A	49230	474
+631A	49455	446
+632A	49138	456
+641A	50208	427
+642A	50733	396
+711A	51404	393
+712A	50357	398
+721A	50267	427
+722A	47904	456
+731A	49744	491
+732A	48934	465
+741A	49158	497
+742A	50922	439

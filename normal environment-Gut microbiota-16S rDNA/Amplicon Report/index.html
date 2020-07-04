@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>华大基因 Amplicon 测序（Illumina）结题报告</title>
+<link href="Pages/css/report.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="Pages/js/jquery.js"></script>
+<script language="javascript" src="Pages/js/report.js"></script>
+<style type="text/css">
+body{
+        overflow:visible;
+position:relative;
+
+    background-color:#FFFFFF;
+    }
+.note {color: #f00;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="flleft logo_title">
+     <div class="logo"></div>
+     <div class="title">华大基因 Amplicon 测序（Illumina）结题报告</div>
+  </div>
+  <div class="head_right">
+     <a href="index_en.html">English Version</a>
+  </div>
+</div>
+
+<div class="bg_bar nav_bg">
+
+  <ul class="nav_ul">
+   <li>
+	<a href="javascript:void(0);" onClick="window.con_page.location.hash='workflow';">综述</a>
+	   <ul class="nav_drop">
+           <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='overview.1';">总体工作流程概述</a></li>
+          <li class="line1"></li>
+          <li ><span></span><a href="javascript:void(0);" onClick="parent.con_page.location.hash='overview.2';">信息分析流程</a></li>
+       </ul>           
+	</li>
+    <li class="bg_bar line"></li>
+
+  <li>
+       <a href="javascript:void(0);" onClick="con_page.location.hash='result';">分析方法及结果</a>
+       <ul class="nav_drop">
+<li attr="seqQC" onClick="con_page.location.hash='result.sequencingQC';"><a href="javascript:void(0);">数据统计</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.alignment';"><a href="javascript:void(0);">序列拼接</a></li> <li class="line1"></li>
+<li onClick="con_page.location.hash='result.geneExp';"><a href="javascript:void(0);">物种分类和丰度分析</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.deepAnalysisOfGeneExp';"><a href="javascript:void(0);">样品多样性分析</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.deepAnalysisOfDEGs';"><a href="javascript:void(0);">样品组间显著性差异分析</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.deepAnalysisMINING';"><a href="javascript:void(0);">信息挖掘推荐</a></li><li class="line1"></li>
+
+ </ul>       
+    </li>   
+    <li class="bg_bar line"></li>
+
+<li>
+<a href="javascript:void(0);" onClick="window.con_page.location.hash='references';">参考文献</a></li>
+   <li class="bg_bar line"></li>
+   
+   <li>
+<a href="javascript:void(0);" onClick="window.con_page.location.hash='data.format';">常用数据格式介绍</a>
+<ul class="nav_drop">
+<li attr="seqQC" onClick="con_page.location.hash='format.fastq';"><a href="javascript:void(0);"> FASTQ Format</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='format.fasta';"><a href="javascript:void(0);">FASTA Format</a></li> <li class="line1"></li>
+<li onClick="con_page.location.hash='format.otu';"><a href="javascript:void(0);">OTU File</a></li><li class="line1"></li>
+
+<li onClick="con_page.location.hash='format.alpha';"><a href="javascript:void(0);">Alpha File</a></li><li class="line1"></li>
+
+<li onClick="con_page.location.hash='format.Beta';"><a href="javascript:void(0);">Beta File</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='format.difference';"><a href="javascript:void(0);">Difference Analysis File</a></li><li class="line1"></li>
+
+ </ul>  
+
+</li>
+
+   <li class="bg_bar line"></li> 
+   
+  </ul>
+  
+  <div class="seq_top"></div>  
+  <ul class="tool_ul">
+    <li class=helptext ><a href="readme.txt" target="_blank">文件说明</a></li>
+    <li class=download><a href="report.pdf" target="_blank">PDF</a></li>
+  </ul>
+  
+</div>
+
+  <iframe src="Pages/left.html" name="left_page" id="left_page" class="seq_contentl" frameborder="0"></iframe> 
+  <div class=seq_contentc></div>  
+  <iframe src="Pages/content.html" name="con_page" id="con_page" class="seq_cn" frameborder="0"></iframe>
+   <div class=seq_foot>
+    <div class=seq_footl><span class="foot_logo"></span><span class=foot_text>版权所有 2014华大基因</span><span>粤ICP备 10059378</span></div>
+    <div class=seq_footr><span class=foot_text>技术支持邮箱: tech@bgitechsolutions.com</span><span>网址：www.bgitechsolutions.com</span></div>
+  </div> 
+
+</body>
+</html>

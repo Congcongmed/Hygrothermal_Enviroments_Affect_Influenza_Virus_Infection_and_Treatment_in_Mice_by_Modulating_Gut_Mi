@@ -1,0 +1,99 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>BGI Amplicon report</title>
+<link href="Pages/css/report.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="Pages/js/jquery.js"></script>
+<script language="javascript" src="Pages/js/report.js"></script>
+<style type="text/css">
+body{
+        overflow:visible;
+position:relative;
+
+    background-color:#FFFFFF;
+    }
+.note {color: #f00;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <div class="flleft logo_title">
+     <div class="logo"></div>
+     <div class="title">BGI Amplicon Analysis Report</div>
+  </div>
+  <div class="head_right">
+     <a href="index.html">中文版</a>
+  </div>
+</div>
+
+<div class="bg_bar nav_bg">
+
+  <ul class="nav_ul">
+   <li>
+	<a href="javascript:void(0);" onClick="window.con_page.location.hash='workflow';">Overview</a>
+	   <ul class="nav_drop">
+           <li><a href="javascript:void(0);" onClick="parent.con_page.location.hash='overview.1';">Introdution of workflow</a></li>
+          <li class="line1"></li>
+          <li ><span></span><a href="javascript:void(0);" onClick="parent.con_page.location.hash='overview.2';">Bioinformatics analysis workflow</a></li>
+       </ul>           
+	</li>
+    <li class="bg_bar line"></li>
+
+  <li>
+       <a href="javascript:void(0);" onClick="con_page.location.hash='result';">Methods and results</a>
+       <ul class="nav_drop">
+<li attr="seqQC" onClick="con_page.location.hash='result.sequencingQC';"><a href="javascript:void(0);">Data statistics</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.alignment';"><a href="javascript:void(0);">Paired end reads are merged to tags</a></li> <li class="line1"></li>
+<li onClick="con_page.location.hash='result.geneExp';"><a href="javascript:void(0);">Analysis of community patterns</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.deepAnalysisOfGeneExp';"><a href="javascript:void(0);">Diversity analysis</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.deepAnalysisOfDEGs';"><a href="javascript:void(0);">Significant differences analysis between groups of samples</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='result.deepAnalysisMINING';"><a href="javascript:void(0);">Suggestions for data mining</a></li><li class="line1"></li>
+
+ </ul>       
+    </li>   
+    <li class="bg_bar line"></li>
+
+<li>
+<a href="javascript:void(0);" onClick="window.con_page.location.hash='references';">References</a></li>
+   <li class="bg_bar line"></li>
+   
+   <li>
+<a href="javascript:void(0);" onClick="window.con_page.location.hash='data.format';">Data format introduction</a>
+<ul class="nav_drop">
+<li attr="seqQC" onClick="con_page.location.hash='format.fastq';"><a href="javascript:void(0);"> FASTQ Format</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='format.fasta';"><a href="javascript:void(0);">FASTA Format</a></li> <li class="line1"></li>
+<li onClick="con_page.location.hash='format.otu';"><a href="javascript:void(0);">OTU File</a></li><li class="line1"></li>
+
+<li onClick="con_page.location.hash='format.alpha';"><a href="javascript:void(0);">Alpha File</a></li><li class="line1"></li>
+
+<li onClick="con_page.location.hash='format.Beta';"><a href="javascript:void(0);">Beta File</a></li><li class="line1"></li>
+<li onClick="con_page.location.hash='format.difference';"><a href="javascript:void(0);">Difference Analysis File</a></li><li class="line1"></li>
+
+ </ul>  
+
+</li>
+
+   <li class="bg_bar line"></li> 
+   
+  </ul>
+  
+  <div class="seq_top"></div>  
+  <ul class="tool_ul">
+    <li class=helptext ><a href="readme_en.txt" target="_blank">Filespec</a></li>
+    <li class=download><a href="report_en.pdf" target="_blank">PDF</a></li>
+  </ul>
+  
+</div>
+
+  <iframe src="Pages/left_en.html" name="left_page" id="left_page" class="seq_contentl" frameborder="0"></iframe> 
+  <div class=seq_contentc></div>  
+  <iframe src="Pages/content_en.html" name="con_page" id="con_page" class="seq_cn" frameborder="0"></iframe>
+   <div class=seq_foot>
+    <div class=seq_footl><span class="foot_logo"></span><span class=foot_text>2013 Copyright BGI All Rights Reserved</span><span> 10059378</span></div>
+    <div class=seq_footr><span class=foot_text>Technical Support E-mail: tech@bgitechsolutions.com</span><span>Website: www.bgitechsolutions.com</span></div>
+  </div> 
+
+</body>
+</html>

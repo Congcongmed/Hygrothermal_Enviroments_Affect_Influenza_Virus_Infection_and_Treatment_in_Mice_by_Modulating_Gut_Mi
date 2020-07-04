@@ -1,0 +1,28 @@
+#SampleName	TotalPairsReadNumber	ConnectTagNumber	ConnectRatio(%)	AverageLengthAndSD	TagsWithoutPrimer	TagUtilizationRatio(%)	AverageLengthAndSD
+912A	62657	62560	99.85	252/0	-	-	-/-
+913A	63161	63048	99.82	252/0	-	-	-/-
+914A	63930	63774	99.76	252/1	-	-	-/-
+916A	63190	63085	99.83	252/1	-	-	-/-
+9211A	63512	63391	99.81	252/1	-	-	-/-
+927A	62941	62807	99.79	252/0	-	-	-/-
+928A	63006	62898	99.83	252/0	-	-	-/-
+929A	63968	63823	99.77	252/0	-	-	-/-
+934A	63669	63533	99.79	252/1	-	-	-/-
+935A	63468	63330	99.78	252/1	-	-	-/-
+936A	64099	63971	99.80	252/1	-	-	-/-
+937A	62803	62684	99.81	252/0	-	-	-/-
+9410A	64211	64069	99.78	252/0	-	-	-/-
+9411A	63797	63648	99.77	252/0	-	-	-/-
+947A	63966	63887	99.88	252/0	-	-	-/-
+949A	63045	62910	99.79	252/1	-	-	-/-
+
+Summary of Sample's Reads and Tags
+
+16 Samples Clean Reads
+Total pairs read number: 1015423
+Average read number and SD: 63463/500
+
+16 Samples Tags
+Total connect tag number: 1013418
+Average connect tag number and SD: 63338/492
+Average tag length and SD: 252/0

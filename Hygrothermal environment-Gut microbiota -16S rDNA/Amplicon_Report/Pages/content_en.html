@@ -1,0 +1,682 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>BGI Amplicon Analysis Report</title>
+<link href="css/report.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="js/jquery.js"></script>
+<script language="javascript" src="js/report.js"></script>
+<style type="text/css">
+body{
+        overflow:visible;
+position:relative;
+
+    background-color:#FFFFFF;
+    }
+.note {color: #f00;}
+</style>
+</head>
+<body>
+
+<div class=seq_cn1>
+<div class="top_btn"></div>
+<!--Overview-->
+<h1><a name="workflow"></a>I Overview</h1>
+<br/>
+<h2><a name="overview.1"></a>1 Introduction of workflow</h2>
+<br/>
+Once the DNA sample(s) was(were) received, a qulity test has been done first, then all the qualified DNA is used to construct a library(libraries). For PCR product, the jagged ends of DNA fragment would be converted into blunt ends by using T4 DNA polymerase, Klenow Fragment and T4 Polynucleotide Kinase. Then add an 'A' base to each 3' end to make it easier to add adapters. After all that, fragments too short would be removed by Ampure beads. For genomics DNA, we use fusion primer with dual index and adapters for PCR,  fragments too short would be removed by Ampure beads too. In both cases, only the qualified library can be used for sequencing. The bioinformatics analysis will be carried on with sequencing data.
+<br/>
+<div class="tc"><a href="images/workflow_en.png" target="_blank"><img src="images/workflow_en.png" width="450px" /></a></div><br/>
+<div class="tc"><b>Figure 1 Workflow</b></div>
+
+<br/>
+<div class="break"></div>
+<br/>
+<h2><a name="overview.2"></a>2 Bioinformatics analysis workflow</h2>
+<br/>
+The raw data were filtered to eliminate the adapter pollution and low quality to obtain clean reads, then paired-end reads with overlap were merged to tags. And tags were clustered to OTU at 97% sequence similarity. Taxonomic ranks were assigned to OTU representative sequence using Ribosomal Database Project (RDP) Na飗e Bayesian Classifier v.2.2. At last, alpha diversity, beta diversity and the different species screening were analyzed based on OTU and taxonomic ranks.
+<br/>
+<div class="tc" ><a href="images/inforflow_en.png" target="_blank"><img src="images/inforflow_en.png" width="600px"   /></a></div><br/>
+<div class="tc"><b>Figure 2 Bioinformatics analysis pipeline of Amplicon Sequencing</b></div>
+
+<br/>
+	
+<!-- 信息分析结果-->
+<div class="break"></div>
+<h1><a name="result"></a>II Methods and results</h1>
+<br/>
+<!--Data Statistics-->
+<h2><a name="result.sequencingQC"></a>1 Data statistics</h2>
+<br/>
+In order to obtain more accurate and reliable results in subsequent bioinformatics analysis[1], the raw data will be pre-processed to get clean data by in-house procedure as following:
+<br/>1)	Truncation of sequence reads not having an average quality of 20 over a 30 bp sliding window based on the phred algorithm, and trimmed reads having less than 75% of their original length, as well as its paired read, will be removed; 
+<br/>2)	Removal of reads contaminated by adapter(default parameter: 15 bases overlapped by reads and adapter with maximal 3 bases mismatch allowed);
+<br/>3)	Removal of reads with ambiguous basa(N base), and its paired reads;
+<br/>4)	Removal of reads with low complexity(default: reads with 10 consecutive same base).
+<br/>For pooling library with barcode samples mixed, the clean reads were assigned to corresponding samples by allowing 0 base mismatch to barcode sequences with in-house scripts.<br/><br/>Paired-end reads were generated with Illumina HiSeq/MiSeq platform, then the reads with sequencing adapters, N base, poly base, low quality etc were filtered out with default parameters(detailed in Method 1), and the data processing results was listed in Table 1-1.
+<br/>
+<br/>
+<table>
+<div class="tc"><b>Table 1-1 Data Statistics</b></div>
+<tr><th>Sample Name</th><th>Reads Length (bp)</th><th>Raw Data (Mbp)</th><th>Adapter (%)</th><th>N base (%)</th><th>Ploy base (%)</th><th>Low Quality (%)</th><th>Clean Data (Mbp)</th><th>Data Utilization Ratio (%)</th><th>Raw Reads</th><th>Clean Reads</th><th>Read Utilization Ratio (%)</th></tr>
+<tr><td>912A</td><td>250:250</td><td>35.69</td><td>0.000</td><td>0.164</td><td>0.011</td><td>6.542</td><td>30.19</td><td>84.60</td><td>71370*2</td><td>62657*2</td><td>87.79</td><tr>
+<tr><td>913A</td><td>250:250</td><td>41.30</td><td>0.000</td><td>0.167</td><td>0.013</td><td>12.343</td><td>30.27</td><td>73.30</td><td>82594*2</td><td>63161*2</td><td>76.47</td><tr>
+<tr><td>914A</td><td>250:250</td><td>35.47</td><td>0.001</td><td>0.173</td><td>0.092</td><td>5.188</td><td>30.84</td><td>86.94</td><td>70945*2</td><td>63930*2</td><td>90.11</td><tr>
+<tr><td>916A</td><td>250:250</td><td>39.67</td><td>0.000</td><td>0.166</td><td>0.010</td><td>10.718</td><td>30.34</td><td>76.49</td><td>79336*2</td><td>63190*2</td><td>79.65</td><tr>
+<tr><td>9211A</td><td>250:250</td><td>38.36</td><td>0.000</td><td>0.154</td><td>0.020</td><td>9.315</td><td>30.49</td><td>79.49</td><td>76717*2</td><td>63512*2</td><td>82.79</td><tr>
+<tr><td>927A</td><td>250:250</td><td>35.03</td><td>0.000</td><td>0.160</td><td>0.006</td><td>5.296</td><td>30.32</td><td>86.55</td><td>70063*2</td><td>62941*2</td><td>89.83</td><tr>
+<tr><td>928A</td><td>250:250</td><td>38.71</td><td>0.000</td><td>0.157</td><td>0.026</td><td>10.052</td><td>30.24</td><td>78.12</td><td>77424*2</td><td>63006*2</td><td>81.38</td><tr>
+<tr><td>929A</td><td>250:250</td><td>36.15</td><td>0.000</td><td>0.178</td><td>0.017</td><td>6.334</td><td>30.80</td><td>85.21</td><td>72291*2</td><td>63968*2</td><td>88.49</td><tr>
+<tr><td>934A</td><td>250:250</td><td>36.15</td><td>0.000</td><td>0.162</td><td>0.003</td><td>6.297</td><td>30.58</td><td>84.60</td><td>72293*2</td><td>63669*2</td><td>88.07</td><tr>
+<tr><td>935A</td><td>250:250</td><td>37.80</td><td>0.000</td><td>0.167</td><td>0.011</td><td>8.522</td><td>30.58</td><td>80.90</td><td>75597*2</td><td>63468*2</td><td>83.96</td><tr>
+<tr><td>936A</td><td>250:250</td><td>37.92</td><td>0.000</td><td>0.174</td><td>0.013</td><td>8.274</td><td>30.77</td><td>81.15</td><td>75837*2</td><td>64099*2</td><td>84.52</td><tr>
+<tr><td>937A</td><td>250:250</td><td>37.03</td><td>0.000</td><td>0.175</td><td>0.087</td><td>8.091</td><td>30.18</td><td>81.49</td><td>74068*2</td><td>62803*2</td><td>84.79</td><tr>
+<tr><td>9410A</td><td>250:250</td><td>38.56</td><td>0.000</td><td>0.158</td><td>0.013</td><td>8.964</td><td>30.86</td><td>80.02</td><td>77128*2</td><td>64211*2</td><td>83.25</td><tr>
+<tr><td>9411A</td><td>250:250</td><td>37.87</td><td>0.000</td><td>0.188</td><td>0.016</td><td>8.443</td><td>30.72</td><td>81.13</td><td>75733*2</td><td>63797*2</td><td>84.24</td><tr>
+<tr><td>947A</td><td>250:250</td><td>35.79</td><td>0.000</td><td>0.192</td><td>0.014</td><td>5.633</td><td>30.84</td><td>86.18</td><td>71575*2</td><td>63966*2</td><td>89.37</td><tr>
+<tr><td>949A</td><td>250:250</td><td>37.94</td><td>0.000</td><td>0.169</td><td>0.010</td><td>9.151</td><td>30.31</td><td>79.89</td><td>75876*2</td><td>63045*2</td><td>83.09</td><tr>
+
+</table>
+<br/>
+<b>Results directory：BGI_results/Clean_Data/</b>
+<br/>
+
+<!--Paired end reads are merged to tags-->	
+<div class="break"></div>	
+<br/>
+<h2><a name="result.alignment"></a>2 Paired end reads are merged to tags</h2>
+<br/>
+If the two paired-end reads overlapped, the consensus sequence was generated by <b>FLASH</b>[2](Fast Length Adjustment of Short reads, v1.2.11), and the detailed method is as follows:
+<br/>1) Minimal overlapping length: 15 bp;
+<br/>2) Mismatching ratio of overlapped region: <= 0.1.
+<br/> Removal of paired end reads without overlaps.<br/>
+<br/>
+The high quality paired-end reads were combined to tags based on overlaps, 1013418 tags were obtained in total with 63338 tags per sample on average, and the average length is 252 bp.<br/>
+<table>
+<div class="tc"><b>Table 2-1 Tags statistics</b></div>
+<tr><th>Sample Name</th><th>Total Pairs Read Number</th><th>Connect Tag Number</th><th>Connect Ratio (%)</th><th>Average Length And SD</th><th>Tags Without Primer</th><th>Tag Utilization Ratio (%)</th><th>Average Length (bp) And SD</th></tr>
+<tr><td>912A</td><td>62657</td><td>62560</td><td>99.85</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>913A</td><td>63161</td><td>63048</td><td>99.82</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>914A</td><td>63930</td><td>63774</td><td>99.76</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>916A</td><td>63190</td><td>63085</td><td>99.83</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>9211A</td><td>63512</td><td>63391</td><td>99.81</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>927A</td><td>62941</td><td>62807</td><td>99.79</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>928A</td><td>63006</td><td>62898</td><td>99.83</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>929A</td><td>63968</td><td>63823</td><td>99.77</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>934A</td><td>63669</td><td>63533</td><td>99.79</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>935A</td><td>63468</td><td>63330</td><td>99.78</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>936A</td><td>64099</td><td>63971</td><td>99.80</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>937A</td><td>62803</td><td>62684</td><td>99.81</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>9410A</td><td>64211</td><td>64069</td><td>99.78</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>9411A</td><td>63797</td><td>63648</td><td>99.77</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>947A</td><td>63966</td><td>63887</td><td>99.88</td><td>252/0</td><td>-</td><td>-</td><td>-/-</td><tr>
+<tr><td>949A</td><td>63045</td><td>62910</td><td>99.79</td><td>252/1</td><td>-</td><td>-</td><td>-/-</td><tr>
+
+</table>
+Note: '-' in 'tags without primer' indicates there is no primer removal to the tags.
+<br/>
+<br/>
+<b>Result directory: BGI_results/Connect_Tags/</b>
+<br/>
+
+<!--Species Composition and Abundance-->
+<div class="break"></div>
+<br/>
+<h2><a name="result.geneExp"></a>3 Analysis of community patterns</h2>	
+<br/>
+The tags were clustered to OTU(Operational Taxonomic Unit) by scripts of software USEARCH(v7.0.1090)[3], detailed as follows:
+<br/>1) The tags were clustered into OTU with a 97% threshold by using UPARSE, and the OTU unique representative sequences were obtained;
+<br/>2)	Chimeras were filtered out by using UCHIME(v4.2.40);
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;The 16S rDNA and ITS sequences were screened for chimeras by mapping to gold database(v20110519）, UNITE(v20140703) separately, de novo chimera detection was done for 18S rDNA sequences;
+<br/>3)	All tags were mapped to each OTU representative sequences using USEARCH GLOBAL, then the tags number of each OTU in each sample will be summarized to OTU abundance table.
+<br/>
+<br/>
+OTU representative sequences were taxonomically classified using Ribosomal Database Project (RDP) Classifier v.2.2 trained on the database Greengene_2013_5_99, using 0.6 confidence values as cutoff.<br/>
+<br/>Databases used for species annotation:
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;16S rDNA is used for bacterial and archaea community: Greengene(default): V201305[8] ; RDP: Release11_5,20160930
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;18S rDNA is used for fungal community: Silva(default): Version_132,20180410
+<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ITS is also used for fungal community: UNITE(default): Version_7_2,20171201
+<br/>
+<br/>
+OTUs were Filtered as follow:
+<br/>1) Unassigned OTUs were removed;
+<br/>2) OTUs not assigned to the target specices were removed. For example, the OTUs assigned to archeae would be removed if the project is about 16S rDNA for bacterial community study.
+<br/>The filtered OTUs were used to downstream processing。
+<br/>
+<br/>
+<h3><a name="result.geneExpOTU"></a>3.1 OTU cluster and abundance</h3>
+<br/>
+<b>3.1.1 OTU Statistics</b><br/>
+<br/>
+Filtered tags are clustered into OTU (Operational Taxonomic Units) at 97% similarity and detailed information is summarized in Table 3-1, OTU number per sample primarily represents the degree of sample diversity.
+<br/>
+<br/>
+<table>
+<div class="tc"><b>Table 3-1 OTU Statistics</b></div>
+<tr><th>Sample Name</th><th>Tag number </th><th>OTU number</th></tr>
+<tr><td>912A</td><td>52183</td><td>335</td><tr>
+<tr><td>913A</td><td>53563</td><td>287</td><tr>
+<tr><td>914A</td><td>60497</td><td>293</td><tr>
+<tr><td>916A</td><td>53480</td><td>319</td><tr>
+<tr><td>9211A</td><td>48718</td><td>425</td><tr>
+<tr><td>927A</td><td>55071</td><td>236</td><tr>
+<tr><td>928A</td><td>49157</td><td>423</td><tr>
+<tr><td>929A</td><td>51804</td><td>308</td><tr>
+<tr><td>934A</td><td>54896</td><td>247</td><tr>
+<tr><td>935A</td><td>54194</td><td>348</td><tr>
+<tr><td>936A</td><td>53185</td><td>295</td><tr>
+<tr><td>937A</td><td>60469</td><td>338</td><tr>
+<tr><td>9410A</td><td>49704</td><td>420</td><tr>
+<tr><td>9411A</td><td>51012</td><td>397</td><tr>
+<tr><td>947A</td><td>51637</td><td>416</td><tr>
+<tr><td>949A</td><td>50791</td><td>417</td><tr>
+
+</table>
+<br/>
+
+<br/><b>3.1.1 OTU venn chart</b>
+<br/>
+<br/>
+Venn diagram could visually display the number of common/unique OTUs in multi-samples/groups. The core microbiomes of different environments could be obtained if combined with the OTU represent species.
+<br/>
+<br/>
+Based on the OTU abundance, OTU of each group was listed, Venn diagram was drawn by VennDiagram of software R(v3.1.1), then the common and specific OTU ID were summarized.
+<br/>
+<br/>
+Different color represents different samples or groups, The interior of each
+circle symbolically represents the number of observed OTUs in the certain sample/group. The overlapping area or intersection would represent the set of OTU commonly present in the counterpart samples/groups. Likewise, the single-layer zone represents the number of OTUs uniquely found in the certain sample/group. Venn diagram is suited to 2-5 samples or groups.
+<br/><center><a href="images/A-B-C-D.venn.png" target="_blank"><img src="images/A-B-C-D.venn.png" width="400px"/></a><a href="images/912A-913A-914A-916A.venn.png" target="_blank"><img src="images/912A-913A-914A-916A.venn.png" width="400px"/></a></center>
+<br/><center><a href="images/9211A-927A-928A-929A.venn.png" target="_blank"><img src="images/9211A-927A-928A-929A.venn.png" width="400px"/></a><a href="images/934A-935A-936A-937A.venn.png" target="_blank"><img src="images/934A-935A-936A-937A.venn.png" width="400px"/></a></center>
+<br/><center><a href="images/9410A-9411A-947A-949A.venn.png" target="_blank"><img src="images/9410A-9411A-947A-949A.venn.png" width="400px"/></a></center>
+<br/><center><b>Figure 3-1 Shared OTU across different samples or groups</b></center><br/>
+
+<br/><b>3.1.3 Core-Pan OTU Analysis</b>
+<br/>
+<br/>
+Display the common and the uniq OTU of samples or groups.
+<br/>
+<br/><center><a href="images/All.Flower.png
+" target="_blank"><img src="images/All.Flower.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-2-1 Core-Pan OTU</b></center>
+<center>The middle circle indicates the number of shared OTUs in  these samples o r groups, a nd the ellipse outside the middle circle indicates the number of OTUs that only this sample o r group has w hile others doesnt.</center><br/>
+<br/><b>3.1.4 OTU PCA analysis</b>
+<br/>
+<br/>
+In order to display the differences of OTU composition in different samples, Principal component analysis(PCA) was used to construct 2-D graph to summarize factors mainly responsible for this difference, similarity is high if two samples are closely located.
+<br/>
+<br/>
+Based on the OTU abundance information, the relative abundance of each OTU in each sample will be calculated, and the PCA of OTU was done with the relative abundance value. The software used in this step was package 'ade4' of software R(v3.1.1).
+<br/>
+<br/><center><a href="images/PCA_PCA1.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_PCA1.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-1 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><center><a href="images/PCA_PCA4.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_PCA4.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-2 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><center><a href="images/PCA_all.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_all.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-3 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><center><a href="images/PCA_A-B-C-D.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_A-B-C-D.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-4 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><center><a href="images/PCA_PCA3.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_PCA3.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-5 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><center><a href="images/PCA_PCA2.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_PCA2.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-6 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><center><a href="images/PCA_PCA5.PCA.PC1PC2.png
+" target="_blank"><img src="images/PCA_PCA5.PCA.PC1PC2.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-3-7 PCA based on OTU abundance(Description)</b></center>
+<center>X-axis,1st principal component and Y-axis, 2nd principal component. Number in brackets represents contributions of principal components to differences among samples. A dot represents each sample, and different colors represent different groups. </center><br/>
+<br/><b>3.1.5 Species Accumulation analysis</b>
+<br/>
+<br/>
+Species Accumulation (SA) analysis. SA plots showing the increase in OTUs detected with the addition of each sample. Each bar represents 100 random draws (without replacement) of samples from the sample pool. The picture shows the curve obtained using all of the OTU data.
+
+<br/>
+<br/><center><a href="images/Cumulative_Curve.png
+" target="_blank"><img src="images/Cumulative_Curve.png
+" width="400px"/></a></center>
+<br/><center><b>图3-4-1 Species Accumulation analysis</b></center>
+<center></center><br/>
+<br/><b>3.1.6 PLS-DA analysis</b>
+<br/>
+<br/>
+PLS-DA is performed in order to sharpen the separation between groups of observations, by hopefully rotating PCA components such that a maximum separation among classes is obtained, and to understand which variables carry the class separating information. Figure 3   is the graph of partial least squares discrimination analysis.
+<br/>
+<br/>
+The software used in this step was package 'mixOmics' of software R.
+<br/>
+<br/><center><a href="images/pls-da.Rplot.png
+" target="_blank"><img src="images/pls-da.Rplot.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 3-5-1 PLS-DA based on OTU abundance(Description)</b></center>
+<center>The horizontal axis and the vertical axis indicate the top 2 components. Each dot represents one sample. Samples are colored and grouped by elipse according to their group information.  </center><br/>
+<br/><b>3.1.7 OTU rank curve</b><br/>
+<br/>
+OTU rank abundance curve provides a means for visually representing species richness and species evenness. Species richness can be viewed as the number of different species on the chart (X-axis)i.e., how many species were ranked. Species evenness is derived from the slope of the line that fits the graph. A steep gradient indicates low evenness as the high ranking species have much higher abundances than the low ranking species. A shallow gradient indicates high evenness as the abundances of different species are similar.
+<br/>
+<br/>
+OTU were ranked by the relative abundance value as x-axis, and the OTU relative abundance was as y-axis, then the rank curve were drawn by software R(v3.1.1).
+<br/>
+<br/><center><a href="images/Sample.OTU_rank.png" target="_blank"><img src="images/Sample.OTU_rank.png" width="500px"/></a></center>
+<center><b>Figure 3-6 OTU Rank Curve</b></center><br/><br/>
+<h3><a name="result.geneExpSPCIES"></a>3.2 Species composition and abundance</h3>
+<br/><b>3.2.1 Species Annotation</b><br/>
+<br/>
+The tags number of each taxonomic rank(Phylum, Class, Order, Family, Genus, Species) or OTU in different samples were summarized in a profiling table or histogram, and the histogram was drawn with the software R(v3.1.1).
+<br/>
+<br/><b>Figure 3-4-* </b> are the taxonomics composition distribution histograms of each sample were shown at Phylum, Order, Class, Family, Genus, Species level separately. The ratio of each species in certain sample is directly displayed. At Phylum, all species were used to draw the histogram. The species of which abundance is less than 0.5% in all samples were classified into 'others' in other ranks.
+<br/>
+<br/>
+<center><a href="images/Phylum.all_taxonomy_barplot.png" target="_blank"><img src="images/Phylum.all_taxonomy_barplot.png" height="300px"/></a></center>
+<center><b>Figure 3-4-1 The taxonomic composition distribution in samples of Phylum-level</b></center><br/>
+<center><a href="images/Class.all_taxonomy_barplot.png" target="_blank"><img src="images/Class.all_taxonomy_barplot.png" height="300px"/></a></center>
+<center><b>Figure 3-4-2 The taxonomic composition distribution in samples of Class-level</b></center><br/>
+<center><a href="images/Order.all_taxonomy_barplot.png" target="_blank"><img src="images/Order.all_taxonomy_barplot.png" height="300px"/></a></center>
+<center><b>Figure 3-4-3 The taxonomic composition distribution in samples of Order-level</b></center><br/>
+<center><a href="images/Family.all_taxonomy_barplot.png" target="_blank"><img src="images/Family.all_taxonomy_barplot.png" height="300px"/></a></center>
+<center><b>Figure 3-4-4 The taxonomic composition distribution in samples of Family-level</b></center><br/>
+<center><a href="images/Genus.all_taxonomy_barplot.png" target="_blank"><img src="images/Genus.all_taxonomy_barplot.png" height="300px"/></a></center>
+<center><b>Figure 3-4-5 The taxonomic composition distribution in samples of Genus-level</b></center><br/>
+<center><a href="images/Species.all_taxonomy_barplot.png" target="_blank"><img src="images/Species.all_taxonomy_barplot.png" height="300px"/></a></center>
+<center><b>Figure 3-4-6 The taxonomic composition distribution in samples of Species-level</b></center><br/>
+<br/><b>3.2.2 Specie heat map</b><br/>
+<br/>A heat map is a graphical representation of data where the individual values contained in a matrix are represented as colors. Here species clustering based on the abundance of each species was shown by heat map, longitudinal clustering indicates the similarity of all species among different samples, and the horizontal clustering indicates the similarity of certain species among different samples, the closer the distance is and the shorter the branch length is, the more similar the species composition is between the samples. At Phylum, all species were used to draw the heat map. The species of which abundance is less than 0.5% in all samples were classified into 'others' in other ranks. <b>Figure 3-5-*</b> shows the species clustering heat map at different taxonomic ranks.
+<br/>
+<br/>
+Species heat map analysis was done based on the relative abundance of each species in each sample. To minimize the differences degree of the relative abundance value, the values were all log transformed. If the relative abundance of certain species is 0, the half of the minimum abundance value will substituted for it. Heatmaps were generated using the package 'gplots' of software R(v3.1.1) and the distance algorithm is 'euclidean', the clustering method is 'complete'.
+<br/>
+<br/>
+<center><a href="images/Phylum.all.heatmap.png" target="_blank"><img src="images/Phylum.all.heatmap.png" /></a></center>
+<center><b>Figure 3-5-1 Log-scaled percentage heat map of Phylum-level</b></center><br/>
+<center><a href="images/Class.all.heatmap.png" target="_blank"><img src="images/Class.all.heatmap.png" /></a></center>
+<center><b>Figure 3-5-2 Log-scaled percentage heat map of Class-level</b></center><br/>
+<center><a href="images/Order.all.heatmap.png" target="_blank"><img src="images/Order.all.heatmap.png" /></a></center>
+<center><b>Figure 3-5-3 Log-scaled percentage heat map of Order-level</b></center><br/>
+<center><a href="images/Family.all.heatmap.png" target="_blank"><img src="images/Family.all.heatmap.png" /></a></center>
+<center><b>Figure 3-5-4 Log-scaled percentage heat map of Family-level</b></center><br/>
+<center><a href="images/Genus.all.heatmap.png" target="_blank"><img src="images/Genus.all.heatmap.png" /></a></center>
+<center><b>Figure 3-5-5 Log-scaled percentage heat map of Genus-level</b></center><br/>
+<center><a href="images/Species.all.heatmap.png" target="_blank"><img src="images/Species.all.heatmap.png" /></a></center>
+<center><b>Figure 3-5-6 Log-scaled percentage heat map of Species-level</b></center><br/>
+<br/><b>3.2.3 Species phylogenetic analysis </b><br/>
+<br/>A phylogenetic tree is a branching diagram showing the inferred evolutionary relationships among various biological species or other entities(their phylogeny) based upon similarities and differences in their physical or genetic characteristics. The evolution distance between species is closer if the branch length is shorter. Besides the species composition and abundance analysis above, phylogenetic tree could clarify the species evolution relationship further.
+<br/>
+<br/>
+The representative sequences were aligned against the Silva core set(Silva_108_core_aligned_seqs) using PyNAST by 'align_seqs.py'. A representative OTU phylogenetic tree was constructed using the QIIME(v1.80) built-in scripts including the fasttree method for tree construction. The tags with highest abundance of each Genus was chosen as the corresponding Genus representative sequences, and Genus level phylogenetic tree was obtained by the same way of OTU phylogenetic tree. The phylogeny tree was imaged by software R(v3.1.1) at last.
+<br/>
+<br/><center><a href="images/genus.tree.png" target="_blank"><img src="images/genus.tree.png" width="700px"/></a></center>
+<center><b>Figure 3-6 Genus level phylogenetic tree</b>(The same Phylum is shown as the same color)</center><br/>
+<br/><b>Results directory: BGI_results/OTU_Cluster_Taxonomy/</b><br/>
+
+<!-- Sample Complexity -->
+<div class="break"></div>
+<br/>
+<h2><a name="result.deepAnalysisOfGeneExp"></a>4 Diversity analysis</h2>
+<br/>
+<h3><a name="result.corStat"></a>4.1 Diversity analysis with single sample</h3>
+<br/>
+Alpha diversity is applied for analyzing complexity of species[11] diversity for a sample through several indices, including observed species, chao1, ace, shannon and simpson. The complexity of sample is proportional with the first four values, while with a negative correlation with simpson value.
+<br/>
+<br/>
+Observed species value, chao1 value and ACE value can reflect the species richness of community, and the rarefaction curve based on the three values could also be used to evaluate if produced data is enough to cover all species in the community. When the curve tends to be smooth, it suggests the produced data is enough. Otherwise, when the curve continues to climb with increasing  sequencing effort, it shows a high complexity in samples, and there still be species uncovered by the sequencing data. 
+<br/>
+<br/>
+Shannon value and simpson value can reflect the species diversity of the community, affected by both species richness and species evenness, that is the two values also consider the abundance of each species. With the same species richness, the greater the species evenness, the greater the community diversity. 
+<br/>
+<br/>
+ The indices are calculated by Mothur(v1.31.2), and the corresponding rarefaction curve are drawn by software R(v3.1.1). The calculation formula of each indice can refer to <a href="http://www.mothur.org/wiki/Calculators"> http://www.mothur.org/wiki/Calculators </a> and the method of drawing rarefaction curve is as  follows,
+<br/>1) Calculating OTU numbers based on extracted tags (in multiples of 500);
+<br/>2) Rarefraction curve was drawn using the indices calculated with extracted tags.
+<br/>
+<br/>
+If the samples belong to different groups, and the sample number in per group is more than 3, differential analysis among groups could be done using the alpha diversity indices. And Wilcoxon Rank-Sum Test is used for two groups comparation, while Kruskal-Wallis Test is used for multi-groups comparation. And then plotbox of alpha diversity is drawn, the analysis above is done by software R(v3.1.1).
+<br/>
+<br/>
+<table>
+<div class="tc"><b>Table 4-1 Alpha diversity statistics</b></div>
+<tr><th>Sample Name</th><th>sobs</th><th>chao</th><th>ace</th><th>shannon</th><th>simpson</th><th>coverage</th><tr>
+
+<tr><td>912A</td><td>335.000000</td><td>364.684211</td><td>372.677508</td><td>3.259440</td><td>0.098875</td><td>0.999080</td><tr>
+<tr><td>913A</td><td>287.000000</td><td>316.117647</td><td>327.291730</td><td>3.158834</td><td>0.162669</td><td>0.999160</td><tr>
+<tr><td>914A</td><td>293.000000</td><td>313.217391</td><td>308.384932</td><td>2.877425</td><td>0.149743</td><td>0.999488</td><tr>
+<tr><td>916A</td><td>319.000000</td><td>376.187500</td><td>378.656425</td><td>3.399941</td><td>0.092913</td><td>0.998859</td><tr>
+<tr><td>9211A</td><td>425.000000</td><td>519.916667</td><td>472.096434</td><td>4.119788</td><td>0.036103</td><td>0.998604</td><tr>
+<tr><td>927A</td><td>236.000000</td><td>278.241379</td><td>276.353907</td><td>2.440790</td><td>0.180162</td><td>0.999092</td><tr>
+<tr><td>928A</td><td>423.000000</td><td>472.875000</td><td>459.786025</td><td>4.022022</td><td>0.056820</td><td>0.998840</td><tr>
+<tr><td>929A</td><td>308.000000</td><td>336.200000</td><td>344.801382</td><td>3.302989</td><td>0.081577</td><td>0.999073</td><tr>
+<tr><td>934A</td><td>247.000000</td><td>303.000000</td><td>288.989319</td><td>2.568126</td><td>0.255957</td><td>0.999107</td><tr>
+<tr><td>935A</td><td>348.000000</td><td>391.050000</td><td>375.646313</td><td>3.990505</td><td>0.044374</td><td>0.999225</td><tr>
+<tr><td>936A</td><td>295.000000</td><td>346.250000</td><td>322.524893</td><td>3.495927</td><td>0.081577</td><td>0.999229</td><tr>
+<tr><td>937A</td><td>338.000000</td><td>374.384615</td><td>366.596818</td><td>3.786554</td><td>0.048950</td><td>0.999272</td><tr>
+<tr><td>9410A</td><td>420.000000</td><td>445.066667</td><td>447.892855</td><td>4.034867</td><td>0.040048</td><td>0.999034</td><tr>
+<tr><td>9411A</td><td>397.000000</td><td>454.777778</td><td>445.728036</td><td>4.024415</td><td>0.038701</td><td>0.998726</td><tr>
+<tr><td>947A</td><td>416.000000</td><td>458.558140</td><td>453.254086</td><td>3.740860</td><td>0.052292</td><td>0.998819</td><tr>
+<tr><td>949A</td><td>417.000000</td><td>453.263158</td><td>453.549088</td><td>3.978332</td><td>0.066518</td><td>0.998957</td><tr>
+
+</table>
+<br/>
+<br/>
+<b>Figure 4-1</b> shows the different curve based on observed species value, chao1 value and ACE value, shannon value, simpson value.
+<br/>
+<br/>
+<br/><center><a href="images/observed_species.Rarefaction.png" target="_blank"><img src="images/observed_species.Rarefaction.png" width="400px"/></a><a href="images/chao.Rarefaction.png" target="_blank"><img src="images/chao.Rarefaction.png" width="400px"/></a></center>
+<br/><center><a href="images/ace.Rarefaction.png" target="_blank"><img src="images/ace.Rarefaction.png" width="400px"/></a><a href="images/shannon.Rarefaction.png" target="_blank"><img src="images/shannon.Rarefaction.png" width="400px"/></a></center>
+<br/><center><a href="images/simpson.Rarefaction.png" target="_blank"><img src="images/simpson.Rarefaction.png" width="400px"/></a><a href="images/coverage.Rarefaction.png" target="_blank"><img src="images/coverage.Rarefaction.png" width="400px"/></a></center>
+</center><center><b>图4-1 Sample-based rarefaction analysis</b></center><br/>
+The mean and standard deviation(SD) were calculated based on the alpha diversity values of all samples. If p value is less than 0.05, there is significant difference in alpha diversity among the groups. <b>Table 4-2-*</b> lists the comparison results and only shows the value of two groups, calculated value of other groups is detailed in the results file.<br/>
+<br/><table><div class="tc"><b>Tabel 4-2-1 Alpha diversity comparison results among groups(Description)</b></div>
+<tr><th>#Alpha</th><th>mean(A)</th><th>SD(A)</th><th>mean(B)</th><th>SD(B)</th><th>...</th><th>p-vaule</th><tr>
+
+<tr><td>sobs</td><td>308.50000</td><td>22.47221</td><td>412.50000</td><td>10.47219</td><td>...</td><td>0.15148</td><tr>
+<tr><td>chao</td><td>342.55169</td><td>32.56008</td><td>452.91644</td><td>5.68719</td><td>...</td><td>0.17451</td><tr>
+<tr><td>ace</td><td>346.75265</td><td>34.35481</td><td>450.10602</td><td>3.90853</td><td>...</td><td>0.15148</td><tr>
+<tr><td>shannon</td><td>3.17391</td><td>0.22101</td><td>3.94462</td><td>0.13804</td><td>...</td><td>0.16807</td><tr>
+<tr><td>simpson</td><td>0.12605</td><td>0.03530</td><td>0.04939</td><td>0.01295</td><td>...</td><td>0.14849</td><tr>
+<tr><td>coverage</td><td>0.99915</td><td>0.00026</td><td>0.99888</td><td>0.00014</td><td>...</td><td>0.03142</td><tr>
+
+<table>
+<br/>
+<br/>
+Boxplot is used to visually display the differences of the alpha diversity among groups(<b>Figure 4-2-*</b>). Five lines from bottom to top is the minimum value, the first quartile, median, the third quartile and the maximum value, and the abnormal value is shown as 'o'.<br/>
+<br/><center><a href="images/Description.Alpha.boxplot.png" target="_blank"><img src="images/Description.Alpha.boxplot.png" width="700px"/></a></center>
+<center><b>Fighure 4-2-1 Alpha diversity indices boxplot among groups(Description)</b></center><br/>
+<b>Results directory: BGI_results/Alpha_Diversity/</b><br/><br/><h3><a name="result.allClusterTree"></a>4.2 Diversity analysis among samples(n>=4)</h3>
+<br/>Beta diversity analysis was used to evaluate differences of samples in species complexity. Beta diversity analysis was done by software QIIME(v1.80). There is differences in sequencing depth in different samples, normalization is introduced: Sequences is extracted randomly according to the minimum sequence number for all samples, the extracted sequences formed a new ‘OTU table biom’ file, then the beta diversity distance will be calculated base on the ‘OTU table biom’ file.<br/>
+<br/>
+Various values, such as Bray-Curtis, weighted UniFrac, unweighted UniFrac, pearson, could be used to measure beta diversity, especially the first three values.
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bray-Curtis distance is a commonly used index to reflect the differences between two communities, and its value is between zero and one, zero Bray-Curtis represents exact similar community structure.
+<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UniFrac uses the system evolution information to compare the composition of community species between samples. The results can be used as a measure of beta diversity. It takes into account the distance of evolution between the species, and the bigger index is the greater differences between samples. The UniFrac is divided into weighted UniFrac and unweighted UniFrac, and the weighted UniFrac considering the abundance of sequences while unweighted UniFrac do not.
+<br/>
+<br/>
+<b>Beta diversity result:</b>
+<br/>
+weighted_unifrac result：<a href="../Result/Beta_Diversity/weighted_unifrac/weighted_unifrac_Beta_diversity.xls" target="_blank"><font color="blue">weighted_unifrac result</font></a><br/>
+unweighted_unifrac result：<a href="../Result/Beta_Diversity/unweighted_unifrac/unweighted_unifrac_Beta_diversity.xls" target="_blank"><font color="blue">unweighted_unifrac result</font></a><br/>
+bray_curtis result：<a href="../Result/Beta_Diversity/bray_curtis/bray_curtis_Beta_diversity.xls" target="_blank"><font color="blue">bray_curtis result</font></a><br/>
+<br/>Heatmap of Beta diversity distance distribution is shown in <b>Figure 4-4-*</b>. After clustering, the samples with similar beta diversity are clustered which reflect the similarity between the samples.
+<br/>
+<br/>
+Beta diversity heat map was drawn by 'aheatmap' in package 'NMF' of software R(v3.1.1).
+<br/>
+<br/>
+<center><a href="images/Description_weighted_unifrac_heatmap.png" target="_blank"><img src="images/Description_weighted_unifrac_heatmap.png" /></a></center><center><b>Figure 4-3-1 Beta diversity heat map(Description, weighted_unifrac)</b></center><br/>
+<center><a href="images/Description_unweighted_unifrac_heatmap.png" target="_blank"><img src="images/Description_unweighted_unifrac_heatmap.png" /></a></center><center><b>Figure 4-3-2 Beta diversity heat map(Description, unweighted_unifrac)</b></center><br/>
+<center><a href="images/Description_bray_curtis_heatmap.png" target="_blank"><img src="images/Description_bray_curtis_heatmap.png" /></a></center><center><b>Figure 4-3-3 Beta diversity heat map(Description, bray_curtis)</b></center><br/>
+<br/>Further, PCoA (Principal coordinate analysis) is used to exhibit the differences between the samples according to the matrix of beta diversity diatance. The closer distance stands for the similar species composition of the samples.
+<br/>
+<br/>
+<b>PCoA result:</b>
+<br/>
+weighted_unifrac PCoA 2D result: <a href="../Result/Beta_Diversity/weighted_unifrac/2d_plots/_2D_PCoA_plots.html" target="_blank"><font color="blue">2D PCoA result</font></a>
+<br/>
+weighted_unifrac PCoA 3D result:<a href="../Result/Beta_Diversity/weighted_unifrac/3d_plots/index.html" target="_blank"><font color="blue">3D PCoA result</font></a><br/>
+unweighted_unifrac PCoA 2D result: <a href="../Result/Beta_Diversity/unweighted_unifrac/2d_plots/_2D_PCoA_plots.html" target="_blank"><font color="blue">2D PCoA result</font></a>
+<br/>
+unweighted_unifrac PCoA 3D result:<a href="../Result/Beta_Diversity/unweighted_unifrac/3d_plots/index.html" target="_blank"><font color="blue">3D PCoA result</font></a><br/>
+bray_curtis PCoA 2D result: <a href="../Result/Beta_Diversity/bray_curtis/2d_plots/_2D_PCoA_plots.html" target="_blank"><font color="blue">2D PCoA result</font></a>
+<br/>
+bray_curtis PCoA 3D result:<a href="../Result/Beta_Diversity/bray_curtis/3d_plots/index.html" target="_blank"><font color="blue">3D PCoA result</font></a><br/>
+<br/><div class="break"></div>
+<br/><h3><a name="result.venn">4.3 Clustering of Species Composition Among Samples (n>=4)</a></h3>
+<br/>Similarity in species composition among samples was evaluated. The clustering results are shown in <b>Figure 4-4-*</b> and the same color represents the samples in the same group. Short distance between samples represents high similarity.
+<br/>
+<br/>
+Unweighted Pair Group Method with Arithmetic mean (UPGMA) is a type of hierarchical clustering method using average linkage and was used to interpreting the distance matrix produced by beta diversity. To measure the robustness of this result to sequencing effort, we perform a jackknifing analysis, wherein 75% of the smallest sample sequences from each sample are chosen at random, and the resulting UPGMA tree from this subset of data is compared with the tree representing the entire available data set by QIIME(v1.80). This process is repeated with 100 random subsets of data, and the tree nodes which prove more consistent across jackknifed datasets are deemed more robust. And the figure is drawn by software R(v3.1.1).
+<br/>
+<br/>
+<br/><center><a href="images/Description_weighted_unifrac.tree.png" target="_blank"><img src="images/Description_weighted_unifrac.tree.png" width="500px"/></a></center>
+<center><b>图4-4-1 Samples Clustering result(Description, weighted_unifrac)</b></center><br/>
+<br/><center><a href="images/Description_unweighted_unifrac.tree.png" target="_blank"><img src="images/Description_unweighted_unifrac.tree.png" width="500px"/></a></center>
+<center><b>图4-4-2 Samples Clustering result(Description, unweighted_unifrac)</b></center><br/>
+<br/><center><a href="images/Description_bray_curtis.tree.png" target="_blank"><img src="images/Description_bray_curtis.tree.png" width="500px"/></a></center>
+<center><b>图4-4-3 Samples Clustering result(Description, bray_curtis)</b></center><br/>
+<b>Results directory: BGI_results/Beta_Diversity/</b><br/><br/>
+<!-- 样品组间显著性差异分析 -->
+
+<br/>
+<h2><a name="result.deepAnalysisOfDEGs"></a>5 Significant differences analysis between groups of samples (groups>=2, samples per group>=3)</h2>
+<br/>
+We use the method of statistical to get the abundance differences of microbial communities between samples, and FDR (false discovery rate) is adopted to assess the significance of differences. From the results, we can identify the samples that cause the species composition differences between two groups. The significant difference between the groups are analyzed at the level of Phylum, Class, Order, Family, Genus and Species.
+<br/>
+<br/>
+Metastats<a href="http://metastats.cbcb.umd.edu/">(http://metastats.cbcb.umd.edu/)</a> and R(v3.1.1) are used to determine which taxonomic groups were significantly different between groups of samples. We adjusted the obtained P-value by a Benjamini-Hochberg false discovery rate correction(function 'p.adjust' in the stats package of R(v3.1.1))[12].
+<br/>
+<br/><b>Method: kruskal.test</b><br/>
+<br/><b>Results directory: BGI_results/Diff_Analysis/</b><br/>
+<!-- LEFSE 分析 -->
+<div class="break"></div>
+<br/>
+<h2><a name="result.deepAnalysisOfDEGs"></a>6 LDA Effect Size(LEFSE) Analysis)</h2>
+<br/>
+LEfSe (Linear discriminant analysis Effect Size)[9] determines the features (organisms, clades, operational taxonomic units, genes, or functions) most likely to explain differences between classes by coupling standard tests for statistical significance with additional tests encoding biological consistency and effect relevance.
+<br/>
+<br/>
+The analysis is done by software LEFSE.
+<br/>
+<br/><center><a href="images/result.cladogram.png
+" target="_blank"><img src="images/result.cladogram.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 6-1-1 LEFSE Analysis</b></center>
+<center>In the LEFse tree, different colors indicate different groups. Note colored in a group color shows an important microbe biomarker in the group and the biomark name will list in the upper right corner. The yellow notes represent the biomarker which do not show any importance in groups. </center><br/>
+<br/><b>Results directory: BGI_results/Diff_Analysis/LEFSe/</b><br/>
+<!-- PICRUST 分析 -->
+<div class="break"></div>
+<br/>
+<h2><a name="result.deepAnalysisOfDEGs"></a>7 PICRUST Analysis)</h2>
+<br/>
+Using 16S information, PICRUSt[10] recaptures key findings from the Human Microbiome Project and accurately predicts the abundance of gene families in host-associated and environmental communities, with quantifiable uncertainty. Here, we used PICRUSt to do functional classification scheme of KEGG Orthology (KOs) and Clusters of Orthologs Groups (COGs). Following table shows the significant differences analysis result of KOs/COGs. 
+<br/>
+<br/>
+The analysis is done by software PICRUST.
+<br/>
+<br/><center><a href="images/ko_level1_taxonomy_barplot.png
+" target="_blank"><img src="images/ko_level1_taxonomy_barplot.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 7-1-1 PICRUST Analysis</b></center>KOs prediction. In the figure, the x axis indicates different samples/groups, and the y axis indicates the relative abundance. Each color represent a KEGG pathway. </center><br/>
+<br/><center><a href="images/ko_level2_taxonomy_barplot.png
+" target="_blank"><img src="images/ko_level2_taxonomy_barplot.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 7-1-1 PICRUST Analysis</b></center>KOs prediction. In the figure, the x axis indicates different samples/groups, and the y axis indicates the relative abundance. Each color represent a KEGG pathway. </center><br/>
+<br/><center><a href="images/ko_level3_taxonomy_barplot.png
+" target="_blank"><img src="images/ko_level3_taxonomy_barplot.png
+" width="400px"/></a></center>
+<br/><center><b>Figure 7-1-1 PICRUST Analysis</b></center>KOs prediction. In the figure, the x axis indicates different samples/groups, and the y axis indicates the relative abundance. Each color represent a KEGG pathway. </center><br/>
+<br/><b>Results directory: BGI_results/Functional_Analysis/</b><br/>
+<!-- 信息挖掘推荐 -->	
+<div class="break"></div>
+<br/><h2><a name="result.deepAnalysisMINING"></a>8 Suggestions for Data Mining</h2>
+<br/>
+16S/18S/ITS/Functional gene(FunGene, such as amoA, mcrA) analysis was mainly applied for host intestine, soil, water and so on. Analysis hotspots for this kind of research are mainly focused on differences among samples in species composition and corresponding abundance[13-17].
+<br/>
+<br/>
+In analysis results, there are three important files in the directory <b>OTU_Cluster_Taxonomy</b>: <b>OTU_table_for_biom.txt </b>(containing species composition for each sample), <b>Species_heatmap/</b> (visualized result of OTU taxonmy and abundance in each sample), <b>Taxa_summary</b> (including comparison among samples in different taxonomic levels. Please focus on the table in which different samples could be separated significantly, and then understand backgrounds of these species to correlate with environmental adaption). Results about sample diversity are mainly included in directory <b>Alpha_diversity/</b> and <b>Beta_diversity/</b> with files representing complexity in samples (Alpha diversity and rarefaction), complexity differences between samples(Beta diversity) etc. 
+<br/>
+<br/>
+For different groups, PCA on OTU abundance, heat map on species abundance and heat map on beta diversity all visually reflect the differences among groups. If the samples belonging to the same group were clustered together, the samples of the same group has the similar species composition. And <b>Diff_Analysis/</b> could give the significant species responsible for the differences using statistics method.
+<div class="break">
+<br/>
+<h1><a name="references"></a>III References</h1>
+
+<br/>
+<ul style="clear:both">
+<li>[1] Douglas WF, Bing M, Pawel G, Naomi S, Sandra O, Rebecca MB. 2014. An improved dual-indexing approach for multiplexed 16S rRNA gene sequencing on the Illumina MiSeq platform. Microbiome 2:6.</li>
+<li>[2] T. Magoc and S. Salzberg. 2011. FLASH: Fast length adjustment of short reads to improve genome assemblies. Bioinformatics 27(21): 2957-63.</li>
+<li>[3] Edgar, R.C. 2013. UPARSE: Highly accurate OTU sequences from microbial amplicon reads,Nature Methods. 10(10):996-8.</li>
+<li>[4] Edgar RC, Haas BJ, Clemente JC, Quince C, Knight R. 2011. UCHIME improves sensitivity and speed of chimera detection. Bioinformatics. 27:2194-2200.</li>
+<li>[5] J Gregory C, Justin K, Jesse S. 2010. QIIME allows analysis of high-throughput community sequencing data. Nature Methods. 7:335-336.</li>
+<li>[6] Cole, J. R., Q. Wang, J. A. Fish, B. Chai, D. M. McGarrell, Y. Sun, C. T. Brown, A. Porras-Alfaro, C. R. Kuske, and J. M. Tiedje. 2014. Ribosomal Database Project: data and tools for high throughput rRNA analysis Nucl. Acids Res. 41:D633-D642.</li>
+<li>[7] Quast C, Pruesse E, Yilmaz P, Gerken J, Schweer T, Yarza P, Peplies J, Gl?ckner FO. 2013.: The SILVA ribosomal RNA gene database project: improved data processing and web-based tools. Nucl. Acids Res. 41 (D1): D590-D596.</li>
+<li>[8] DeSantis, T. Z., P. Hugenholtz, N. Larsen, M. Rojas, E. L. Brodie, K. Keller, T. Huber, D. Dalevi, P. Hu, and G. L. Andersen. 2006. Greengenes, a Chimera-Checked 16S rRNA Gene Database and Workbench Compatible with ARB. Appl Environ Microbiol 72:5069-72.</li>
+<li>[9] Abarenkov, Kessy; Nilsson, R. Henrik; Larsson, Karl-Henrik; Alexander, Ian J.; Eberhardt, Ursula; Erland, Susanne; H?iland, Klaus; Kj?ller, Rasmus; Larsson, Ellen; Pennanen, Taina; Sen, Robin; Taylor, Andy F. S.; Tedersoo, Leho; Ursing, Bj?rn M.; Vr?lstad, Trude; Liimatainen, Kare; Peintner, Ursula; K?ljalg, Urmas. 2010. The UNITE database for molecular identification of fungi - recent updates and future perspectives. New Phytologist. 186(2), 281-285.</li>
+<li>[10] Wang Q, Garrity GM, Tiedje JM, Cole JR. 2007. Naive Bayesian classifier for rapid assignment of rRNA sequences into the new bacterial taxonomy. Appl Environ Microbiol. 73:5261-5267.</li>
+<li>[11] Patrick DS, Sarah LW et al. (2009). Introducing mothur: Open-Source, Platform- Independent, Community-Supported Software for Describing and Comparing Microbial Communities. Appl Environ Microbiol 75(23):7537-7541.</li>
+<li>[12] James RW, Niranjan N, Mihai P. 2009. Statistical Methods for Detecting Differentially Abundant Features in Clinical Metagenomic Samples. PLoS computational biology. </li>
+<li>[13] McCafferty J, Mühlbauer M, Gharaibeh RZ, et al. (2013) Stochastic changes over time and not founder effects drive cage effects in microbial community assembly in a mouse model.  ISME J. 7(11):2116-25.</li>
+<li>[14] Zhao L, Wang G, Siegel P, et al. (2013) Quantitative genetic background of the host influences gut microbiomes in chickens. Sci Rep. 3:1163.</li>
+<li>[15] Rubin BE, Gibbons SM, Kennedy S, et al. (2013) Investigating the impact of storage conditions on microbial community composition in soil samples. PLoS One. 8(7):1:6.</li>
+<li>[16] Mao Y, Xia Y, Zhang T. (2013) Characterization of Thauera-dominated hydrogen-oxidizing autotrophic denitrifying microbial communities by using high-throughput sequencing. Bioresour Technol. 128:703-10.</li>
+<li>[17] Peng X, Yu KQ, Deng GH, et al. (2013) Comparison of direct boiling method with commercial kits for extracting fecal microbiome DNA by Illumina sequencing of 16S rRNA tags. J Microbiol Methods. 95(3):455-62.</li>
+		</ul>
+
+	<div class="break">
+<br/>
+<h1><a name="data.format"></a><li>IV Data format introdution</h1>
+
+<br/><h2><a name="format.fastq"></a>1 FASTQ format</h2>
+	<br/>FASTQ output format:
+<br/>The first read in *1.fq:
+<br/>@FC4290FAAXX:4:1:3:84#CAGATC/1
+<br/>AGTTCCGGCGCACGGGTGAGTAACGCGTATCCAACCTTCCCCTTAGTAGGGCATAGCCCGGCGAAAGTCGGATTAATACTCTATGTTTTCCGTCGAGGACATCTGAAGTGGAACAAAGATT
+<br/>+
+<br/>CCCCFGCGGGFCCFGGGGGGGGFGGGGGGGGGGGGGGGGGGGGGAFGFFGGFGGGGGGDGGGECBCFGDGGGGGGGGGGGGGFGGGGGGGGGGGGGGGGGGGEGGGGFGGGEFFEGFGFCF
+<br/>
+<br/>The first read in *1.fq:
+<br/>@FC4290FAAXX:4:1:3:84#CAGATC/2
+<br/>CCGCTGCTGCTGGCACGGAATTAGCCGGTCCTTATTCATCAGGTACCTACAAAAAGGGACACGTCCCTCACTTTATCCCCTGATAAAAGCAGTTTACAACCCATAGGGCCGTCATCCTGCA
+<br>+
+<br/>CCCCCGGGGGGGGGGGGGGGGGGGGGGGGEDAFGGGGGGGGFEGGGFGGGGGGGGCFCGFFGGGGGGDGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG
+<br/>
+<table>
+<div class="tc"><b>Format explanation (from left to right).</b></div>
+<tr><th>Line</th><th>File Description</th></tr>
+<tr><td>1</td><td>@Reads ID</td><tr>
+<tr><td>2</td><td>Sequence</td><tr>
+<tr><td>3</td><td>+ Reads ID （Reads ID could be omitted）</td><tr>
+<tr><td>4</td><td>Base quality</td><tr>
+</table>
+<br/><h2><a name="format.fasta"></a>2 FASTA format</h2>	
+<br/>Fasta format (also called Pearson format) which based on the format of text is used to record the sequences of DNA and protein. In the format, the sequence of DNA and protein are coded by single characters, and the name is allowed to be added as annotation at the beginning of each sequence. The first line of the sequence file is start by the symbol of '>' or ';' which is followed by annotation. The sequence is started from the second line, and only allowed characters can be used for coding. For DNA sequences, capitals or lowercases can be used for coding; for protein sequence, only capitals can be used. For example:
+<br/>&gt;Sample1_Tag1
+<br/>TGAGGAATATTGGTCAATGGACGCAAGTCTGAACCAGCCATGCCGCGTGCAGGATGACGGTCCTATGGATTGTAAACTGCTTTTGTACGAGAAGAAAC
+<br/>ACTCCTACGTGTAGGAGCTTGACGGTATCGTAAGAATAAGGATCGGCTAACTCC
+<br/><br/>The tags and OTU sequences are all FASTA format.
+
+<br/><br/><h2><a name="format.otu"></a>3 Illustration of OTU files</h2>	
+<br/><b>OTU_taxonomy.xls</b> example:
+<br/>
+<table>
+<tr><th>#OTUId</th><th>Abundance</th><th>Taxonomy</th></tr>
+<tr><td>Otu1</td><td>1200</td><td>Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Moraxellaceae;Acinetobacter;Acinetobacter_lwoffii</td></tr>
+<tr><td>Otu2</td><td>900</td><td>Bacteria;Firmicutes;Clostridia;Thermoanaerobacterales;Thermodesulfobiaceae;Coprothermobacter</td></tr>
+<tr><td>Otu3</td><td>4100</td><td>Bacteria;Proteobacteria;Gammaproteobacteria;Pseudomonadales;Pseudomonadaceae;Pseudomonas</td></tr>
+</table>
+From left to right, the column contains the information of OTU ID, The OTU Abundance, and The Annotated Species Information of OTU.
+
+<br/><br/><b>OTU_table_for_biom.txt</b> example: 
+<br/>
+<table>
+<tr><th>#OTU ID</th><th>Sample1</th><th>Sample2</th><th>Sample3</th><th>taxonomy</th></tr>
+<tr><td>Otu1</td><td>100</td><td>300</td><td>800</td><td>Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Moraxellaceae; Acinetobacter; Acinetobacter_lwoffii</td></tr>
+<tr><td>Otu2</td><td>500</td><td>200</td><td>200</td><td>Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales; Thermodesulfobiaceae; Coprothermobacter</td></tr>
+<tr><td>Otu3</td><td>1000</td><td>1000</td><td>2100</td><td>Bacteria; Proteobacteria; Gammaproteobacteria; Pseudomonadales; Pseudomonadaceae; Pseudomonas</td></tr>
+</table>
+The first column is OTU ID, column 2 to the second last column contains the tag number of each OTU in all samples, and the last column is the The Annotated Species Information of OTU.
+
+<br/><br/><b>OTU_stat_detail.xls</b> example:
+<br/>Num samples: 3
+<br/>Num total OTUs: 121
+<br/>Num Singletons: 0
+<br/>Num Non-singletons: 121
+<br/>Num total sequences: 6200
+<br/>
+<br/>Sample all OTU summary:
+<br/>Min: 64
+<br/>Max: 83
+<br/>Mean: 73
+<br/>Standard deviation: 7
+<br/>
+<br/>Sample detail:
+<br/>Sample name     Tag number      OTU number
+<br/>Sample1   1200   64
+<br/>Sample2   900   72
+<br/>Sample3   4100   79
+<br/>
+<br/>Num samples: the number of samples; Num total OTUs: total OTU number; Num Singletons: Number of OTU with only 1 tag; Num Non-singletons: Number of OTU with 2 or more tags; Num total sequences: total number of tags.
+<br/>Sample all OTU summary: The summarized information of OTU, including minimum number of OTU, the maximum number of OTU, the average number of OTU, the standard deviation. 
+<br/>Sample detail: the number of each sample’s OTU. The first column is Sample ID, the second column is the total OTU number in each sample, the third column is the number of OTU without singletons, the fourth column is the ratio of OTU with singleton in all OTU.
+
+<br/><br/><b>*sharedOTU.venn.xls</b> example: 
+<br/>
+<table>
+<tr><th>group</th><th>shareOTU_num/uniuqeOTU_num</th><th>OTU_ID</th></tr>
+<tr><td>Sample1-vs-Sample2</td><td>80</td><td>Otu1,Otu10,Otu100,Otu101,Otu102,Otu103...</td></tr>
+<tr><td>Sample1-vs-Sample3</td><td>85</td><td>Otu1,Otu10,Otu100,Otu101,Otu102,Otu103...</td></tr>
+<tr><td>Sample1</td><td>5</td><td>Otu113,Otu116,Otu118,Otu60,Otu98</td></tr>
+</table>
+The corresponding excel sheet of Venn diagram with statistics of shared and unique OTU of samples or groups. The first column is sample or group ID, the second column is the number of shared OTU and unique OTU, and the third column is the shared or unique OTU ID. 
+
+<br/><br/><b>OTU_PCA.coordinate.xls</b> example: 
+<br/>
+<table>
+<tr><th> </th><th>Axis1</th><th>Axis2</th></tr>
+<tr><td>Sample1</td><td>1.535</td><td>-3.381</td></tr>
+<tr><td>Sample2</td><td>0.5531</td><td>-3.0168</td></tr>
+<tr><td>Sample3</td><td>3.2705</td><td>3.4669</td></tr>
+</table>
+The first column is sample ID, the second column is the value of x-axis(PC1), and the third column is the value of y-axis(PC2). 
+
+<br/><br/><b>Genus.phylogeny.tree</b>: This file is in Newick format which is the usual format of phylogeny tree and could be identified by several software such as FigTree,Treebest, PHYLIP etc. 
+
+<br/><br/><h2><a name="format.alpha"></a>4 Alpha diversity analysis files</h2>	
+<br/><b>Alpha_diversity.detail.xls</b> example:
+<br/>
+<table>	
+<tr><th>label</th><th>group</th><th>sobs</th><th>chao</th><th>chao_lci</th><th>chao_hci</th><th>ace</th><th>ace_lci</th><th>ace_hci</th><th>…</th></tr>
+<tr><td>0.03</td><td>Sample1</td><td>156.000000</td><td>521.500000</td><td>335.876875</td><td>898.676067</td><td>378.948085</td><td>283.807259</td><td>544.912564</td><td>…</td></tr>
+<tr><td>0.03</td><td>Sample2</td><td>151.000000</td><td>297.176471</td><td>226.692999</td><td>433.292428</td><td>294.071360</td><td>231.482437</td><td>405.333926</td><td>…</td></tr>
+</table>
+The first column is the differential level, the second column is the sample name, the third column is the obs value of alpha diversity, and from the fourth column to the last one, every 3 columns represent the alpha diversity value, the minimum value and the maximum value at 95% confidential intervals respectively. 
+
+<br/><br/><b>*.Alpha.test.reslut.xls</b> example: 
+<br/>
+<table>
+<tr><th>#Alpha</th><th>mean(Group1)</th><th>SD(Group1)</th><th>mean(Group2)</th><th>SD(Group2)</th><th>...</th><th>p-vaule</td></tr>
+<tr><td>sobs</td><td>191.00000</td><td>43.24350</td><td>682.50000</td><td>166.91016</td><td>...</td><td>0.00075</td></tr>
+<tr><td>chao</td><td>292.44654</td><td>16.15483</td><td>898.39669</td><td>154.11534</td><td>...</td><td>0.00063</td></tr>
+<tr><td>ace</td><td>382.62500</td><td>177.89841</td><td>854.80273</td><td>154.54333</td><td>...</td><td>0.00114</td></tr>
+<tr><td>shannon</td><td>2.33207</td><td>4.34743</td><td>3.04424</td><td>4.27114</td><td>...</td><td>0.00066</td></tr>
+<tr><td>simpson</td><td>0.18282</td><td>0.03691</td><td>0.15808</td><td>0.04751</td><td>...</td><td>0.00167</td></tr>
+</table>
+The first column is the name of alpha diversity index, and from column 2, every two columns represent the mean value and SD value of each sample or group, and the last column is the p-value of the differential test for alpha diversity among groups. 
+
+<br/><br/><h2><a name="format.Beta"></a>5 Beta diversity analysis files </h2>	
+<br/><b>*Beta_diversity.xls</b> example:
+<br/>
+<table>
+<tr><th> </th><th>Sample1</th><th>Sample2</th><th>Sample3</th><th>Sample4</th></tr>
+<tr><td>Sample1</td><td>0.0</td><td>0.529648285613</td><td>0.690040650407</td><td>0.570607988689</td></tr>
+<tr><td>Sample2</td><td>0.529648285613</td><td>0.0</td><td>0.597119123365</td><td>0.449893955461</td></tr>
+<tr><td>Sample3</td><td>0.690040650407</td><td>0.597119123365</td><td>0.0</td><td>0.708907741251</td></tr>
+<tr><td>Sample4</td><td>0.570607988689</td><td>0.449893955461</td><td>0.708907741251</td><td>0.0</td></tr>
+</table>
+The document for the symmetric matrix values in the table for the first row and first column of the sample twenty-two calculated distance matrix.<br/>
+
+<br/><h2><a name="format.difference"></a>6 Differences analysis files </h2>	
+<br/><b>*differentially_abundant.xls</b> example:
+<br/>
+<table>
+<tr><th>Phylum</th><th>mean(Group1)</th><th>variance(Group1)</th><th>std.err(Group1)</th><th>mean(Group2)</th><th>variance(Group2)</th><th>std.err(Group2)</th><th>p-vlaue</th><th>FDR</th></tr>
+<tr><td>Actinobacteria</td><td>0.0490001</td><td>4.8e-05</td><td>0.039710</td><td>0.073479</td><td>0.000135</td><td>0.0601112</td><td>0.653410</td><td>0.682357</td></tr>
+<tr><td>Proteobacteria</td><td>0.014310</td><td>2e-06</td><td>0.008470</td><td>0.018354</td><td>1e-06</td><td>0.0069</td><td>0.685421</td><td>0.676623</td></tr>
+</table>
+The first column is species names; the second, third and fourth column are average abundance , variance and standard deviation of Group1 respectively; the fifth, sixth and seventh column are average abundance, variance and standard deviation of Group2 respectively; the eighth column is the p-value of two groups; the ninth column is the false discovery rate values of two groups.
